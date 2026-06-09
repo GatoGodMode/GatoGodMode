@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SysMap project="GatoGodMode-Profile" updated="2026-06-09">
+  <Structure>
+    <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
+      <Section id="intro" purpose="Identity, role, profile links and badges"/>
+      <Section id="philosophy" purpose="Signal-vs-noise comparison table"/>
+      <Section id="ecosystem" purpose="Mermaid flowchart linking the five projects"/>
+      <Section id="rawengine" purpose="RawEngine Local AI: vision/math separation, local inference"/>
+      <Section id="rawgraded" purpose="RawGraded Studio: pre-grading workflow and architecture"/>
+      <Section id="rawinvestor" purpose="RawInvestor: TCG market signals, EV math, local API"/>
+      <Section id="rawmarkets" purpose="RawMarkets: multi-asset terminal, discipline signals, copilot"/>
+      <Section id="themoun" purpose="TheMoun: physical capture workstation, EPIC line"/>
+      <Section id="stack" purpose="Tech badges, generic stack only"/>
+      <Section id="contact" purpose="Footer links"/>
+    </File>
+    <Folder path="EnVars" role="Structural and variable maps only; no other content permitted"/>
+  </Structure>
+  <Constraints>
+    <Rule>Never reveal builds: no ports, env vars, routes, scraper selectors, model wrapper names, npm scripts, BOM/firmware details, or internal folder names.</Rule>
+    <Rule>Repo must remain named GatoGodMode to render as the profile README.</Rule>
+  </Constraints>
+</SysMap>
