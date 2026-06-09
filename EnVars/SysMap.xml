@@ -2,21 +2,17 @@
 <SysMap project="GatoGodMode-Profile" updated="2026-06-09">
   <Structure>
     <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
-      <Section id="intro" purpose="Identity: CRM/business-solutions developer for construction/solar/roofing, bank- and government-grade integration experience; profile links and badges"/>
-      <Section id="daily-drivers" purpose="UserBar-style brand badge wall: languages/runtimes, frameworks/tooling, data/AI, business platforms/APIs (incl Salesforce, Google Cloud/Analytics/Gmail/Sunroof), web/CMS (WordPress, Gravity Forms, Wordfence), productivity/OS (M365, Outlook, Windows, Defender), creative (Adobe CC with Photoshop/Illustrator callouts), AI dev tools (Cursor, Antigravity, OpenCode)"/>
-      <Section id="certifications" purpose="Certification badges: Salesforce Administrator, Salesforce Advanced Administrator"/>
-      <Section id="what-i-build" purpose="Skills pillars: custom CRM platforms, enterprise Zoho development (~100 workflows, Flow, custom payout modules, portals), integrations/APIs/webhooks (banks, permitting), sensitive-data discipline"/>
-      <Section id="private-builds" purpose="Two conceptual case studies: multi-tenant solar/construction ops platform; field-operations CRM for installation crews. No client data."/>
-      <Section id="philosophy" purpose="Signal-vs-noise comparison table"/>
-      <Section id="ecosystem" purpose="Mermaid flowchart linking the five projects"/>
-      <Section id="rawengine" purpose="RawEngine Local AI: vision/math separation, local inference"/>
-      <Section id="rawgraded" purpose="RawGraded Studio: pre-grading workflow and architecture"/>
-      <Section id="rawinvestor" purpose="RawInvestor: TCG market signals, EV math, local API"/>
-      <Section id="rawmarkets" purpose="RawMarkets: multi-asset terminal, discipline signals, copilot"/>
-      <Section id="themoun" purpose="TheMoun: physical capture workstation, EPIC line"/>
-      <Section id="stack" purpose="Tech badges, generic stack only: TS/React/Node/Express/Electron/SQLite/MySQL/Zoho/REST-Webhooks/Google Workspace/Ollama/Python/PHP"/>
+      <Section id="banner" purpose="RAW ENGINE robot banner image (assets/raw-engine-banner.png)"/>
+      <Section id="hero" purpose="Short identity hit: name, one-liner, three bullets (what I build / ecosystem / why scroll), profile link badges, signal-not-noise blockquote"/>
+      <Section id="whats-building" purpose="Ecosystem highlight: mermaid pipeline diagram + project/status table"/>
+      <Section id="tech-stack" purpose="Compact visible badge row + Salesforce certification badges; full toolbox badge wall in collapsible details"/>
+      <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies"/>
+      <Section id="deep-dives" purpose="Collapsible per-project: Philosophy table, RawEngine, RawGraded, RawInvestor, RawMarkets, TheMoun (with docs links)"/>
       <Section id="contact" purpose="Footer links"/>
     </File>
+    <Folder path="assets" role="Repo images">
+      <File path="assets/raw-engine-banner.png" role="Hero banner image"/>
+    </Folder>
     <Folder path="docs" role="Public-edition project documents">
       <File path="docs/TheMoun-Whitepaper.md" role="Public whitepaper: thesis, pain points, EPIC staged rollout, design principles; excludes engineering/IP internals"/>
       <File path="docs/TheMoun-Market-Research.md" role="Public market research: fragmentation thesis, demand signals (cited), grading economics, comps story"/>
