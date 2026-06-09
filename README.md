@@ -48,11 +48,46 @@ I build the systems businesses actually run on: custom CRMs (from-scratch and on
 ![Zoho Projects](https://img.shields.io/badge/Zoho%20Projects-E42527?style=flat-square&logo=zoho&logoColor=white)
 ![Zoho Analytics](https://img.shields.io/badge/Zoho%20Analytics-E42527?style=flat-square&logo=zoho&logoColor=white)
 ![Zoho WorkDrive](https://img.shields.io/badge/Zoho%20WorkDrive-E42527?style=flat-square&logo=zoho&logoColor=white)
+![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
+![Google Cloud API](https://img.shields.io/badge/Google%20Cloud%20API-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Google Analytics](https://img.shields.io/badge/Google%20Analytics-E37400?style=flat-square&logo=googleanalytics&logoColor=white)
 ![Google Calendar](https://img.shields.io/badge/Google%20Calendar-4285F4?style=flat-square&logo=googlecalendar&logoColor=white)
+![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)
 ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white)
 ![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white)
+![Google Project Sunroof API](https://img.shields.io/badge/Project%20Sunroof%20API-FBBC05?style=flat-square&logo=google&logoColor=black)
 ![REST](https://img.shields.io/badge/REST-APIs-1f6feb?style=flat-square)
 ![Webhooks](https://img.shields.io/badge/Webhooks-Event%20Driven-6f42c1?style=flat-square)
+
+**Web & CMS**
+
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![Gravity Forms](https://img.shields.io/badge/Gravity%20Forms-F15A29?style=flat-square)
+![Wordfence](https://img.shields.io/badge/Wordfence-00709C?style=flat-square&logo=wordfence&logoColor=white)
+
+**Productivity & OS**
+
+![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-D83B01?style=flat-square)
+![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=flat-square)
+![Microsoft Windows](https://img.shields.io/badge/Microsoft%20Windows-0078D4?style=flat-square)
+![Microsoft Defender](https://img.shields.io/badge/Microsoft%20Defender-0078D4?style=flat-square)
+
+**Creative**
+
+![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?style=flat-square)
+[![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-Daily%20Driver-31A8FF?style=flat-square)](https://www.adobe.com/products/photoshop.html)
+[![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-Daily%20Driver-FF9A00?style=flat-square)](https://www.adobe.com/products/illustrator.html)
+
+**AI Dev Tools**
+
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square)
+![Google Antigravity](https://img.shields.io/badge/Google%20Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
+![OpenCode](https://img.shields.io/badge/OpenCode-1a1a1a?style=flat-square)
+
+### Certifications
+
+![Salesforce Administrator](https://img.shields.io/badge/Salesforce-Certified%20Administrator-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
+![Salesforce Advanced Administrator](https://img.shields.io/badge/Salesforce-Certified%20Advanced%20Administrator-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
 
 ---
 

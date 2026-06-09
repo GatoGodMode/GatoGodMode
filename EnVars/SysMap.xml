@@ -3,7 +3,8 @@
   <Structure>
     <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
       <Section id="intro" purpose="Identity: CRM/business-solutions developer for construction/solar/roofing, bank- and government-grade integration experience; profile links and badges"/>
-      <Section id="daily-drivers" purpose="UserBar-style brand badge wall: languages/runtimes, frameworks/tooling, data/AI, business platforms/APIs (shields.io flat-square)"/>
+      <Section id="daily-drivers" purpose="UserBar-style brand badge wall: languages/runtimes, frameworks/tooling, data/AI, business platforms/APIs (incl Salesforce, Google Cloud/Analytics/Gmail/Sunroof), web/CMS (WordPress, Gravity Forms, Wordfence), productivity/OS (M365, Outlook, Windows, Defender), creative (Adobe CC with Photoshop/Illustrator callouts), AI dev tools (Cursor, Antigravity, OpenCode)"/>
+      <Section id="certifications" purpose="Certification badges: Salesforce Administrator, Salesforce Advanced Administrator"/>
       <Section id="what-i-build" purpose="Skills pillars: custom CRM platforms, enterprise Zoho development (~100 workflows, Flow, custom payout modules, portals), integrations/APIs/webhooks (banks, permitting), sensitive-data discipline"/>
       <Section id="private-builds" purpose="Two conceptual case studies: multi-tenant solar/construction ops platform; field-operations CRM for installation crews. No client data."/>
       <Section id="philosophy" purpose="Signal-vs-noise comparison table"/>
