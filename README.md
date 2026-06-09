@@ -65,7 +65,7 @@ Full architecture breakdowns are in the collapsible sections below.
 Local-first by default. Plugin-style architectures. Deterministic math where it matters, AI where it helps.
 
 <details>
-<summary><strong>Full toolbox — every platform and tool I use regularly</strong></summary>
+<summary><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-Full%20Toolbox%20%C2%B7%20every%20platform%20I%20use%20regularly-1f6feb?style=for-the-badge" alt="Expand: Full Toolbox"></summary>
 
 <br>
 
@@ -148,8 +148,10 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 ## Enterprise & CRM Development
 
+*Click a bar to expand.*
+
 <details>
-<summary><strong>What I build for businesses — CRMs, Zoho at scale, banks & permitting integrations</strong></summary>
+<summary><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-CRMs%20%C2%B7%20Zoho%20at%20Scale%20%C2%B7%20Banks%20%26%20Permitting%20Integrations-D83B01?style=for-the-badge" alt="Expand: What I build for businesses"></summary>
 
 <br>
 
@@ -172,7 +174,7 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 </details>
 
 <details>
-<summary><strong>Selected private builds — two custom CRM platforms, described conceptually</strong></summary>
+<summary><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-Selected%20Private%20Builds%20%C2%B7%20two%20custom%20CRM%20platforms-57606a?style=for-the-badge" alt="Expand: Selected private builds"></summary>
 
 <br>
 
@@ -188,8 +190,10 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 ## The Raw Ecosystem — Deep Dives
 
+*Click a bar to expand.*
+
 <details>
-<summary><strong>Philosophy: Move on Signal, Not Noise</strong></summary>
+<summary><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-Philosophy%20%C2%B7%20Move%20on%20Signal%2C%20Not%20Noise-6f42c1?style=for-the-badge" alt="Expand: Philosophy"></summary>
 
 <br>
 
@@ -206,7 +210,7 @@ Everything I build inverts that:
 </details>
 
 <details>
-<summary><strong>RawEngine Local AI — the privacy-first, on-device AI core</strong></summary>
+<summary><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawEngine%20Local%20AI%20%C2%B7%20the%20on--device%20AI%20core-000000?style=for-the-badge" alt="Expand: RawEngine Local AI"></summary>
 
 <br>
 
@@ -222,7 +226,7 @@ Everything I build inverts that:
 </details>
 
 <details>
-<summary><strong>RawGraded Studio — know if a card is worth grading before you pay fees · <a href="https://rawgraded.com">rawgraded.com</a></strong></summary>
+<summary><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawGraded%20Studio%20%C2%B7%20grade%20smart%20before%20you%20pay%20fees-1f6feb?style=for-the-badge" alt="Expand: RawGraded Studio"></summary>
 
 <br>
 
@@ -239,7 +243,7 @@ Everything I build inverts that:
 </details>
 
 <details>
-<summary><strong>RawInvestor — buy, hold, grade, or sell, with math instead of vibes</strong></summary>
+<summary><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawInvestor%20%C2%B7%20buy%2C%20hold%2C%20grade%2C%20or%20sell%20with%20math-8957e5?style=for-the-badge" alt="Expand: RawInvestor"></summary>
 
 <br>
 
@@ -260,7 +264,7 @@ Everything I build inverts that:
 </details>
 
 <details>
-<summary><strong>RawMarkets — a personal markets terminal with an AI copilot</strong></summary>
+<summary><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawMarkets%20%C2%B7%20personal%20markets%20terminal%20%2B%20AI%20copilot-d29922?style=for-the-badge" alt="Expand: RawMarkets"></summary>
 
 <br>
 
@@ -278,7 +282,7 @@ Everything I build inverts that:
 </details>
 
 <details>
-<summary><strong>TheMoun — the physical capture workstation · <a href="https://themoun.com">themoun.com</a></strong></summary>
+<summary><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-TheMoun%20%C2%B7%20the%20physical%20capture%20workstation-2ea44f?style=for-the-badge" alt="Expand: TheMoun"></summary>
 
 <br>
 
