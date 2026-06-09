@@ -2,7 +2,9 @@
 <SysMap project="GatoGodMode-Profile" updated="2026-06-09">
   <Structure>
     <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
-      <Section id="intro" purpose="Identity, role, profile links and badges"/>
+      <Section id="intro" purpose="Identity: CRM/business-solutions developer for construction/solar/roofing, bank- and government-grade integration experience; profile links and badges"/>
+      <Section id="what-i-build" purpose="Skills pillars: custom CRM platforms, enterprise Zoho development (~100 workflows, Flow, custom payout modules, portals), integrations/APIs/webhooks (banks, permitting), sensitive-data discipline"/>
+      <Section id="private-builds" purpose="Two conceptual case studies: multi-tenant solar/construction ops platform; field-operations CRM for installation crews. No client data."/>
       <Section id="philosophy" purpose="Signal-vs-noise comparison table"/>
       <Section id="ecosystem" purpose="Mermaid flowchart linking the five projects"/>
       <Section id="rawengine" purpose="RawEngine Local AI: vision/math separation, local inference"/>
@@ -10,7 +12,7 @@
       <Section id="rawinvestor" purpose="RawInvestor: TCG market signals, EV math, local API"/>
       <Section id="rawmarkets" purpose="RawMarkets: multi-asset terminal, discipline signals, copilot"/>
       <Section id="themoun" purpose="TheMoun: physical capture workstation, EPIC line"/>
-      <Section id="stack" purpose="Tech badges, generic stack only"/>
+      <Section id="stack" purpose="Tech badges, generic stack only: TS/React/Node/Express/Electron/SQLite/MySQL/Zoho/REST-Webhooks/Google Workspace/Ollama/Python/PHP"/>
       <Section id="contact" purpose="Footer links"/>
     </File>
     <Folder path="docs" role="Public-edition project documents">

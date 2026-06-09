@@ -1,13 +1,41 @@
 # Joseph Edwards — GatoGodMode
 
-**CTO. Builder of local-first tools for collectors and investors.**
+**CTO. Developer of CRMs, custom capture platforms, and business solutions for construction, solar, and roofing — with bank- and government-grade integration experience.**
 
-I build software that moves on **signal, not noise** — replacing fragmented browser tabs, gut-feel pricing, and cloud-dependent services with unified, data-driven, privacy-first tooling that runs entirely on your own machine.
+I build the systems businesses actually run on: custom CRMs (from-scratch and on-platform), automation suites, payout engines, field-operations tooling, and local-first products for collectors and investors. Prepared to work with local and state level jurisdictions, lenders, and other sensitive-data environments.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-josephedwardscto-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josephedwardscto/)
 [![X](https://img.shields.io/badge/X-@GatoGodMode-000000?logo=x&logoColor=white)](https://x.com/GatoGodMode)
 [![RawGraded](https://img.shields.io/badge/Web-rawgraded.com-1f6feb)](https://rawgraded.com)
 [![TheMoun](https://img.shields.io/badge/Hardware-themoun.com-2ea44f)](https://themoun.com)
+
+---
+
+## What I Build
+
+**Custom CRM & business platforms** — multi-tenant CRMs built from scratch and deep customization of platform CRMs. Role-based access control, field-level PII governance, multi-role assignment (sales agents, project managers, regional managers), customer and agent portals, document/agreement vaults, and audit trails.
+
+**Enterprise Zoho development** — ran a production Zoho org for a multi-state solar/roofing operation with roughly **100 workflows and automations** spanning project scopes, activities, and pipeline stages:
+
+- **Zoho Flow** automation suites orchestrating cross-app processes end to end
+- **Custom modules and calculators inside Zoho CRM** for advanced payout and commission math
+- **Custom portals** for customers and sales agents with multiple assignment models
+- **Automatic notifications with processing math** baked into the pipeline
+- Full-stack adoption across **Zoho CRM, Projects, Analytics, WorkDrive, and Flow**
+
+*(The org served a company that has since wound down, so the live deployment isn't publicly demonstrable — but the patterns live on in everything below.)*
+
+**Integrations, APIs & webhooks** — production webhook and API integrations with **banks/lenders** (financing flows) and **permitting jurisdictions**, plus Google Workspace sync, marketplace APIs, and document pipelines. Data migration between systems is routine work: CSV/structured imports, idempotent dated SQL migrations, dedupe-on-ingest, export/import tooling.
+
+**Sensitive-data discipline** — development experience at bank and government level: role-scoped visibility, server-side key handling, audit/activity trails, and duplicate-safe, charset-safe migration practices.
+
+### Selected Private Builds
+
+> Client systems — described conceptually, never exposed.
+
+**Multi-tenant solar/construction operations platform** — full lead-to-install pipeline: visual commission/payout formula builder, financing-provider registry tied to project records, permitting and jurisdiction tracking by county department, geofenced field PWAs with photo submission and time tracking, webhook-driven automation engine with delivery logs, public lead-capture forms, customer portal, and live WebSocket monitoring. TypeScript monorepo: ~313 source files, 44 API route modules, 18 admin feature modules.
+
+**Field-operations CRM for multi-region installation crews** — four role-scoped experiences (admin console, CRM desk, foreman mobile, restricted crew shell), two-way Google Calendar sync and Drive mirroring, QR crew check-in with geofenced sites, guided photo/video proof-of-work with GPS/timestamp forensics, permit document OCR, SLA dashboards and shift analytics, bilingual EN/ES field UX. React + Express + MySQL with dated idempotent migrations.
 
 ---
 
@@ -127,13 +155,17 @@ flowchart LR
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-087EA4?logo=react&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![Zoho](https://img.shields.io/badge/Zoho-CRM%20%C2%B7%20Flow%20%C2%B7%20Deluge-E42527?logo=zoho&logoColor=white)
+![REST](https://img.shields.io/badge/APIs-REST%20%C2%B7%20Webhooks-1f6feb)
+![Google Workspace](https://img.shields.io/badge/Google%20Workspace-APIs-4285F4?logo=google&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Local%20LLM%20Inference-Ollama-000000?logo=ollama&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 
 Local-first by default. Plugin-style architectures. Deterministic math where it matters, AI where it helps.
 
