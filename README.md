@@ -9,6 +9,51 @@ I build the systems businesses actually run on: custom CRMs (from-scratch and on
 [![RawGraded](https://img.shields.io/badge/Web-rawgraded.com-1f6feb)](https://rawgraded.com)
 [![TheMoun](https://img.shields.io/badge/Hardware-themoun.com-2ea44f)](https://themoun.com)
 
+### Daily Drivers
+
+**Languages & Runtimes**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Migrations-4479A1?style=flat-square)
+
+**Frameworks & Tooling**
+
+![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+**Data & AI**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
+
+**Business Platforms & APIs**
+
+![Zoho CRM](https://img.shields.io/badge/Zoho%20CRM-E42527?style=flat-square&logo=zoho&logoColor=white)
+![Zoho Flow](https://img.shields.io/badge/Zoho%20Flow-E42527?style=flat-square&logo=zoho&logoColor=white)
+![Zoho Projects](https://img.shields.io/badge/Zoho%20Projects-E42527?style=flat-square&logo=zoho&logoColor=white)
+![Zoho Analytics](https://img.shields.io/badge/Zoho%20Analytics-E42527?style=flat-square&logo=zoho&logoColor=white)
+![Zoho WorkDrive](https://img.shields.io/badge/Zoho%20WorkDrive-E42527?style=flat-square&logo=zoho&logoColor=white)
+![Google Calendar](https://img.shields.io/badge/Google%20Calendar-4285F4?style=flat-square&logo=googlecalendar&logoColor=white)
+![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white)
+![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white)
+![REST](https://img.shields.io/badge/REST-APIs-1f6feb?style=flat-square)
+![Webhooks](https://img.shields.io/badge/Webhooks-Event%20Driven-6f42c1?style=flat-square)
+
 ---
 
 ## What I Build
