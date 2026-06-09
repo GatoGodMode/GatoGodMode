@@ -13,6 +13,10 @@
       <Section id="stack" purpose="Tech badges, generic stack only"/>
       <Section id="contact" purpose="Footer links"/>
     </File>
+    <Folder path="docs" role="Public-edition project documents">
+      <File path="docs/TheMoun-Whitepaper.md" role="Public whitepaper: thesis, pain points, EPIC staged rollout, design principles; excludes engineering/IP internals"/>
+      <File path="docs/TheMoun-Market-Research.md" role="Public market research: fragmentation thesis, demand signals (cited), grading economics, comps story"/>
+    </Folder>
     <Folder path="EnVars" role="Structural and variable maps only; no other content permitted"/>
   </Structure>
   <Constraints>

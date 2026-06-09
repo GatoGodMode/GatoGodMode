@@ -119,6 +119,8 @@ flowchart LR
 
 **Design highlights:** unified TCG + coin reference geometry via removable translucent guides, flippable mark-free deck inserts for clean AI/listing imagery, medical-grade silicone edge protection, and modular serviceability — replaceable wear parts instead of glued monoliths.
 
+**Go deeper:** [Product Whitepaper](docs/TheMoun-Whitepaper.md) · [Market Research](docs/TheMoun-Market-Research.md)
+
 ---
 
 ## Stack at a Glance
