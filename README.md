@@ -8,11 +8,12 @@
 
 - **What I build** — custom CRMs, capture platforms, and business solutions for construction, solar, and roofing — plus bank- and government-grade integrations
 - **My ecosystem** — **RAW ENGINE**: local AI card grading, TCG market signals, a multi-asset markets terminal, and a physical capture workstation — privacy-first, runs on *your* machine
-- **Why scroll** — production Zoho orgs with ~100 automations, from-scratch multi-tenant platforms, Salesforce certified, and a hardware product line on the way
+- **Why scroll** — production Zoho orgs with ~100 automations, from-scratch multi-tenant platforms, Salesforce certified, **first Microsoft Store listing (RawInvestor)**, and a hardware product line on the way
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-josephedwardscto-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josephedwardscto/)
 [![X](https://img.shields.io/badge/X-@GatoGodMode-000000?logo=x&logoColor=white)](https://x.com/GatoGodMode)
 [![RawGraded](https://img.shields.io/badge/Web-rawgraded.com-1f6feb)](https://rawgraded.com)
+[![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-RawInvestor-0078D4?logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9PGX48NMDWQT)
 [![TheMoun](https://img.shields.io/badge/Hardware-themoun.com-2ea44f)](https://themoun.com)
 
 > **Move on signal, not noise.** Unified data capture over a dozen browser tabs. Prescriptive signals over gut feel. 100% local processing over cloud tracking.
@@ -35,7 +36,7 @@ flowchart LR
 |---|---|---|
 | **RawEngine Local AI** | On-device vision AI catalogs defects; deterministic math assigns grades — no cloud required | Shipping |
 | **[RawGraded Studio](https://rawgraded.com)** | Know if a card is worth grading *before* you pay grading fees | Shipping |
-| **RawInvestor** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts | Shipping |
+| **RawInvestor** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts | [Shipping · Microsoft Store](https://apps.microsoft.com/detail/9PGX48NMDWQT) |
 | **RawMarkets** | Local-first markets terminal for metals, energy, equities with an AI copilot | In progress |
 | **[TheMoun](https://themoun.com)** | Integrated physical capture workstation — EPIC line (Eco → Pro → Investor → Curator) | Hardware program |
 

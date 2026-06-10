@@ -7,5 +7,6 @@
   <Var name="RAWGRADED_URL" value="https://rawgraded.com" usedIn="README.md#intro,README.md#rawgraded,README.md#contact" purpose="Product site"/>
   <Var name="THEMOUN_URL" value="https://themoun.com" usedIn="README.md#intro,README.md#themoun,README.md#contact,docs/TheMoun-Whitepaper.md,docs/TheMoun-Market-Research.md" purpose="Product site"/>
   <Var name="MOUN_WHITEPAPER_PATH" value="docs/TheMoun-Whitepaper.md" usedIn="README.md#themoun" purpose="Internal repo link"/>
-  <Var name="MOUN_MARKET_RESEARCH_PATH" value="docs/TheMoun-Market-Research.md" usedIn="README.md#themoun" purpose="Internal repo link"/>
+  <Var name="RAW_INVESTOR_MS_STORE_URL" value="https://apps.microsoft.com/detail/9PGX48NMDWQT" usedIn="README.md#whats-building,README.md#hero" purpose="Microsoft Store listing for RawInvestor"/>
+  <Var name="RAW_INVESTOR_MS_STORE_ID" value="9PGX48NMDWQT" usedIn="EnVars/VarMap.xml" purpose="Store product id"/>
 </VarMap>
