@@ -184,6 +184,8 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 **Field-operations CRM for multi-region installation crews** — four role-scoped experiences (admin console, CRM desk, foreman mobile, restricted crew shell), two-way Google Calendar sync and Drive mirroring, QR crew check-in with geofenced sites, guided photo/video proof-of-work with GPS/timestamp forensics, permit document OCR, SLA dashboards and shift analytics, bilingual EN/ES field UX. React + Express + MySQL with dated idempotent migrations.
 
+**Public case study:** [RoofRoofTexas.com full rebuild](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild) — before/after, security hardening, and local SEO for a Houston roofing company.
+
 </details>
 
 ---
