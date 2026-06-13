@@ -340,7 +340,7 @@ Everything I build inverts that:
 
 **Architecture:** Windows desktop app (web-tech UI in a native shell) with a companion mobile capture app, a local database for portfolio/provenance, and pluggable AI providers (local-first, optional BYOK cloud). An optional hosted vault and public archive exist at rawgraded.com — but desktop grading requires no account at all.
 
-**Public source:** [GatoGodMode/RawGraded](https://github.com/GatoGodMode/RawGraded) — redacted full monorepo (Electron desktop, Capacitor mobile, PHP vault API, landing). No databases, credentials, or operator keys shipped; `config.example.php` + `npm run preflight` guard every publish.
+**Public source:** [GatoGodMode/RawGraded](https://github.com/GatoGodMode/RawGraded) — redacted full monorepo (Electron desktop, Capacitor mobile, PHP vault API, landing). No hardcoded API keys or DB dumps; operator secrets live in the settings table at deploy time. **`npm run preflight`** blocks credentials before every publish. Rotate PSA/PokéWallet/PokemonPriceTracker keys if the repo was public before the June 2026 security sweep.
 
 **Highlights:** live sharpness and border-detection guidance, slab authenticity checking, fake-slab identification guide, printable certificates and social exports, per-card market refresh.
 
