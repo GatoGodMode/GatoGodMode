@@ -3,7 +3,7 @@
 </p>
 
 > [!NOTE]
-> **This GitHub profile is a professional portfolio** — not an open-source community or maintainer program. Most of my career is in **private, proprietary** enterprise and client systems; linked repos are **reviewable case studies and assurance excerpts** for IAM, CRM, security, and implementation depth. **Low star and follower counts are expected** — hiring artifacts, not products seeking contributors.
+> **This GitHub profile is a professional portfolio**, not an open-source community or maintainer program. Most of my career is in **private, proprietary** enterprise and client systems; linked repositories are **reviewable case studies and assurance excerpts** for IAM, CRM, security, and implementation depth.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20to%20Work-Contract%20%26%20Full--Time-2ea44f?style=for-the-badge" alt="Open to Work — Contract and Full-Time">
