@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VarMap project="GatoGodMode-Profile" updated="2026-06-10">
+<VarMap project="GatoGodMode-Profile" updated="2026-06-13">
   <!-- Static content repo: no runtime variables. Entries below are README link/identity constants. -->
   <Var name="OPEN_TO_WORK" value="Contract and full-time — IAM, CRM, security-focused engineering" usedIn="README.md#hero,README.md#contact" purpose="Hiring availability signal"/>
   <Var name="GITHUB_USERNAME" value="GatoGodMode" usedIn="README.md" purpose="Repo name and profile identity"/>
@@ -11,8 +11,11 @@
   <Var name="MOUN_WHITEPAPER_PATH" value="docs/TheMoun-Whitepaper.md" usedIn="README.md#themoun" purpose="Whitepaper link"/>
   <Var name="MOUN_MARKET_RESEARCH_PATH" value="docs/TheMoun-Market-Research.md" usedIn="README.md#themoun" purpose="Market research link"/>
   <Var name="MOUN_SCHEMATICS_PATH" value="docs/TheMoun-Schematics.md" usedIn="README.md#themoun" purpose="Schematics link"/>
-  <Var name="RAW_INVESTOR_MS_STORE_URL" value="https://apps.microsoft.com/detail/9PGX48NMDWQT" usedIn="README.md#whats-building,README.md#hero" purpose="Microsoft Store listing for RawInvestor"/>
+  <Var name="RAW_INVESTOR_MS_STORE_URL" value="https://apps.microsoft.com/detail/9PGX48NMDWQT" usedIn="README.md#whats-building,README.md#hero,README.md#rawinvestor" purpose="Microsoft Store listing for RawInvestor"/>
   <Var name="RAW_INVESTOR_MS_STORE_ID" value="9PGX48NMDWQT" usedIn="EnVars/VarMap.xml" purpose="Store product id"/>
+  <Var name="RAW_INVESTOR_STORE_IMAGE" value="assets/rawinvestor/microsoft-store-listing.png" usedIn="README.md#rawinvestor" purpose="Microsoft Store listing screenshot in profile README"/>
+  <Var name="ROOFROOF_LIVE_URL" value="https://roofrooftexas.com" usedIn="README.md#whats-building,README.md#roofrooftexas" purpose="Live RoofRoofTexas production site"/>
+  <Var name="ROOFROOF_CASE_STUDY_REPO" value="https://github.com/GatoGodMode/RoofRoofTexas-Rebuild" usedIn="README.md#whats-building,README.md#roofrooftexas" purpose="Public RoofRoofTexas rebuild case study repository"/>
   <Var name="COLLECTOR_BUYER_PSYCH_REPO" value="https://github.com/GatoGodMode/CollectorBuyerPsych" usedIn="README.md#whats-building" purpose="Neuro-economic collectibles research repo"/>
   <Var name="ORPHAN_HUNTER_REPO" value="https://github.com/GatoGodMode/OrphanHunter" usedIn="README.md#whats-building" purpose="Web app crawl and audit tool"/>
   <Var name="STRIKESCOPE_REPO" value="https://github.com/GatoGodMode/StrikeScope" usedIn="README.md#whats-building,README.md#strikescope" purpose="Self-hosted CRM IAM platform"/>

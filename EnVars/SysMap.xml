@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SysMap project="GatoGodMode-Profile" updated="2026-06-10">
+<SysMap project="GatoGodMode-Profile" updated="2026-06-13">
   <Structure>
     <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
       <Section id="banner" purpose="RAW ENGINE robot banner image (assets/raw-engine-banner.png)"/>
       <Section id="portfolio-notice" purpose="GitHub NOTE alert: proprietary enterprise/AI work vs public showcase repos"/>
-      <Section id="hero" purpose="RAW ENGINE banner; Open to Work badge; specialty tagline (Cyber Security · IAM · CRM); contract/full-time availability; specialty shield row; IAM/CRM proof bullets; social badges; security discipline blockquote; LinkedIn CTA"/>
+      <Section id="hero" purpose="RAW ENGINE banner; Open to Work badge; specialty tagline (Cyber Security · IAM · CRM); contract/full-time availability; specialty shield row; IAM/CRM proof bullets; three-reader routing table; social badges; security discipline blockquote; LinkedIn CTA"/>
       <Section id="why-uploading-now" purpose="Curated public release rationale: private proprietary career vs shareable architectural showcases"/>
-      <Section id="whats-building" purpose="Ecosystem highlight: table incl RawGraded source repo, LuxuryCatalog and DNS-Sentinel custom tooling"/>
+      <Section id="whats-building" purpose="Ecosystem highlight: table incl RawGraded source repo, RoofRoofTexas case study, LuxuryCatalog and DNS-Sentinel custom tooling"/>
       <Section id="tech-stack" purpose="Compact visible badge row + Salesforce certification badges; full toolbox badge wall in collapsible details"/>
-      <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies + link to RoofRoofTexas-Rebuild public case-study repo. Summaries styled as for-the-badge EXPAND button bars"/>
-      <Section id="deep-dives" purpose="Collapsible per-project incl RawGraded source with visual showcase hero, StrikeScope, PDF Size Reducer, LuxuryCatalog, DNS-Sentinel"/>
+      <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies; RoofRoofTexas full rebuild EXPAND with before/after assets; link from private builds to RoofRoofTexas anchor. Summaries styled as for-the-badge EXPAND button bars"/>
+      <Section id="deep-dives" purpose="Collapsible per-project incl RawGraded source with visual showcase hero, RawInvestor MS Store visual proof, StrikeScope, PDF Size Reducer, LuxuryCatalog, DNS-Sentinel"/>
       <Section id="contact" purpose="Footer links"/>
       <Section id="legal-third-party-notice" purpose="No endorsement/partnership/employment disclaimer for third-party marks and past client work"/>
     </File>
     <Folder path="assets" role="Repo images">
       <File path="assets/raw-engine-banner.png" role="Hero banner image"/>
       <Folder path="assets/rawgraded" role="RawGraded showcase screenshots for README expand section"/>
+      <Folder path="assets/rawinvestor" role="RawInvestor Microsoft Store listing screenshot"/>
+      <Folder path="assets/roofrooftexas" role="RoofRoofTexas before/after case study images"/>
     </Folder>
     <Folder path="docs" role="Published TheMoun diligence package">
       <File path="docs/TheMoun-Whitepaper.md" role="Product whitepaper: thesis, EPIC rollout, engineering architecture, IP themes"/>

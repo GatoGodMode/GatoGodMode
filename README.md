@@ -31,6 +31,14 @@
 - **CRM at scale** — production Zoho org (~100 automations), Salesforce certified (Admin + Advanced Admin), custom multi-tenant CRMs, lender/permitting API integrations
 - **Why me** — migration tooling ([DNS-Sentinel](https://github.com/GatoGodMode/DNS-Sentinel)), security hardening case studies, and full-stack delivery from schema to field PWAs
 
+### For three types of readers
+
+| If you are… | Start here |
+|---|---|
+| **Security / IAM reviewer** | [StrikeScope IAM](#strikescope--iam--platform-engineering) · [RawGraded threat model](https://github.com/GatoGodMode/RawGraded#threat-model) · [RoofRoofTexas hardening](#roofrooftexas--full-rebuild-case-study) |
+| **Product / platform engineer** | [RawInvestor (Microsoft Store)](#rawinvestor--buy-hold-grade-or-sell-with-math) · [RawGraded open source](https://github.com/GatoGodMode/RawGraded) · local-first / loopback-only architecture |
+| **CRM / business systems** | [Zoho at scale](#crms--zoho-at-scale--banks--permitting-integrations) · [RoofRoofTexas delivery case study](#roofrooftexas--full-rebuild-case-study) · [StrikeScope pipeline](#strikescope--iam--platform-engineering) |
+
 <p align="center">
   <a href="https://www.linkedin.com/in/josephedwardscto/"><img src="https://img.shields.io/badge/LinkedIn-josephedwardscto-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://x.com/GatoGodMode"><img src="https://img.shields.io/badge/X-@GatoGodMode-000000?logo=x&logoColor=white" alt="X"></a>
@@ -53,7 +61,7 @@
 
 ## What I'm Building
 
-Five projects, one pipeline: shipped products and open-source tooling — from IAM platforms to migration audits.
+One RAW pipeline, open-source tooling, and public client case studies — from IAM platforms to migration audits.
 
 ```mermaid
 flowchart LR
@@ -76,6 +84,7 @@ flowchart LR
 | **[PDF Size Reducer](https://github.com/GatoGodMode/PDF-Size-Reducer)** | Desktop PDF shrinker — 50 MB → ~2 MB; Ultra preset, size preview, portable exe for non-technical users | Open source · custom tooling |
 | **[LuxuryCatalog](https://github.com/GatoGodMode/LuxuryCatalog)** | B&W line art → photorealistic door catalog via Gemini Nano Banana; PDF export + disaster-recovery reverse engineering | Open source · custom tooling |
 | **[DNS-Sentinel](https://github.com/GatoGodMode/DNS-Sentinel)** | Domain/email DNS auditing for M365 → Google Workspace migrations; MX/SPF/DMARC, WP/Vite exposure, AI assistant | Open source · custom tooling |
+| **[RoofRoofTexas.com rebuild](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild)** | Houston roofing site — design system, media pipeline, CSP/HSTS, JSON-LD local SEO, hardened estimate form | [Live site](https://roofrooftexas.com) · [case study](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild) |
 
 Full architecture breakdowns are in the collapsible sections below.
 
@@ -188,6 +197,7 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 *Click a bar to expand.*
 
+<a id="crms--zoho-at-scale--banks--permitting-integrations"></a>
 <details>
 <summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-CRMs%20%C2%B7%20Zoho%20at%20Scale%20%C2%B7%20Banks%20%26%20Permitting%20Integrations-D83B01?style=for-the-badge" alt="Expand: What I build for businesses"></picture></summary>
 
@@ -222,10 +232,11 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 **Field-operations CRM for multi-region installation crews** — four role-scoped experiences (admin console, CRM desk, foreman mobile, restricted crew shell), two-way Google Calendar sync and Drive mirroring, QR crew check-in with geofenced sites, guided photo/video proof-of-work with GPS/timestamp forensics, permit document OCR, SLA dashboards and shift analytics, bilingual EN/ES field UX. React + Express + MySQL with dated idempotent migrations.
 
-**Public case study:** [RoofRoofTexas.com full rebuild](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild) — before/after, security hardening, and local SEO for a Houston roofing company.
+**Public case study:** see [RoofRoofTexas EXPAND](#roofrooftexas--full-rebuild-case-study) below.
 
 </details>
 
+<a id="strikescope--iam--platform-engineering"></a>
 <details>
 <summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-StrikeScope%20%C2%B7%20IAM%20%26%20platform%20engineering-6f42c1?style=for-the-badge" alt="Expand: StrikeScope"></picture></summary>
 
@@ -285,6 +296,37 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 **Shipped:** Full-stack audit tool — domain score (SSL, headers, path exposure), email provider heuristics (Google/M365/GoDaddy legacy), SMTP + MX banner tests, WordPress vs **Vite dist** detection with optional deep scan, SQLite audit history, and **server-proxied Gemini** fix guides and migration chat.
 
 **Go deeper:** [Repository](https://github.com/GatoGodMode/DNS-Sentinel)
+
+</details>
+
+<a id="roofrooftexas--full-rebuild-case-study"></a>
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RoofRoofTexas%20%C2%B7%20full%20rebuild%20case%20study-c8102e?style=for-the-badge" alt="Expand: RoofRoofTexas"></picture></summary>
+
+<br>
+
+> Public case study: full redesign, re-architecture, security hardening, and local SEO for a Houston roofing company — built lean on purpose.
+
+**Problem:** Thin one-pager — no project gallery, mobile nav hidden below 768px, client-side-only form validation, SEO artifacts referenced but never deployed.
+
+**Shipped:**
+
+- **Design system** — brand-aligned navy/red palette, SVG icon sprite, consistent card and section language
+- **Real proof content** — project gallery with responsive photography and aerial drone flyovers
+- **Live service-area map** — interactive coverage across **14 Greater Houston cities**, lazy-loaded with integrity-pinned CDN
+- **Media pipeline** — multi-MB source photos and 4K drone video compressed to **sub-2 MB** WebP/MP4 deliverables
+- **Conversion form** — CSRF, honeypot, minimum-delay check, per-IP rate limiting, origin/referer whitelisting, server-side sanitization (no third-party CAPTCHA)
+- **Server hardening** — CSP, HSTS (1 year), `X-Frame-Options`, `nosniff`, referrer/permissions policies; PHP execution blocked under `/assets`
+- **SEO infrastructure** — full JSON-LD `@graph` (RoofingContractor, FAQPage, VideoObject, ItemList), sitemap, robots, `llms.txt`, geo meta, Open Graph + Twitter Cards
+- **Accessibility** — skip links, ARIA landmarks, keyboard-operable accordion, reduced-motion and save-data video gating, WCAG 2.2.2 media pause control
+
+**Before / After**
+
+| Before | After |
+|:---:|:---:|
+| <img src="assets/roofrooftexas/before.png" alt="Original site: thin one-pager with placeholder visuals, no project gallery, no live map" width="100%"> | <img src="assets/roofrooftexas/after.png" alt="Rebuilt site: real project gallery, live service-area map, optimized media, conversion-focused estimate flow" width="100%"> |
+
+**Go deeper:** [Case study repo](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild) · [Live site](https://roofrooftexas.com)
 
 </details>
 
@@ -358,6 +400,7 @@ Everything I build inverts that:
 
 </details>
 
+<a id="rawinvestor--buy-hold-grade-or-sell-with-math"></a>
 <details>
 <summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawInvestor%20%C2%B7%20buy%2C%20hold%2C%20grade%2C%20or%20sell%20with%20math-8957e5?style=for-the-badge" alt="Expand: RawInvestor"></picture></summary>
 
@@ -375,7 +418,16 @@ Everything I build inverts that:
 
 **Architecture:** desktop app with an embedded browser workspace, a **loopback-only local API**, and a local database as the authoritative portfolio store. An optional browser extension captures live marketplace context from your real sessions and posts it only to your own machine. No vendor cloud sync, no account, no tracking.
 
+**Shipped on Microsoft Store**
+
+| Distribution | Product UI | Signals |
+|:---:|:---:|:---:|
+| <img src="assets/rawinvestor/microsoft-store-listing.png" alt="RawInvestor on Microsoft Store — market signals dashboard" width="280"> | Market Bias / Trend / Sales Strategy dashboard — eBay, TCGplayer, and PriceCharting blended per card | Multi-source blend · grading EV · 90-day ROI forecast |
+| First RAW ENGINE Microsoft Store listing · **Uses AI features** badge | Nebula 3D portfolio classification · deal-hunting Arsenal targets | Loopback-only API · no cloud sync · no account |
+
 **Highlights:** Nebula 3D portfolio classification (Buy / Sell / Hold / Sleeper / Climber / Dud / NGMI), deal-hunting "Arsenal" targets, sealed product EV, themed share graphics, streamer mode.
+
+**Go deeper:** [RawInvestor repo](https://github.com/GatoGodMode/RawInvestor) · [Microsoft Store listing](https://apps.microsoft.com/detail/9PGX48NMDWQT)
 
 </details>
 
