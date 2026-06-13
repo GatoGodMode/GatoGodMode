@@ -19,5 +19,7 @@
   <Var name="STRIKESCOPE_IAM_DOC" value="https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md" usedIn="README.md#strikescope" purpose="IAM documentation link"/>
   <Var name="PDF_SIZE_REDUCER_REPO" value="https://github.com/GatoGodMode/PDF-Size-Reducer" usedIn="README.md#whats-building,README.md#pdf-size-reducer" purpose="Desktop PDF compression tool"/>
   <Var name="LUXURY_CATALOG_REPO" value="https://github.com/GatoGodMode/LuxuryCatalog" usedIn="README.md#whats-building,README.md#luxurycatalog" purpose="Gemini door catalog maker with PDF disaster recovery"/>
+  <Var name="PATH_ROOT_MASK" value="ROOT:\" usedIn="EnVars/SysMap.xml,linked-repo EnVars" purpose="Published path alias for local project roots (e.g. ROOT:\CollectorBuyerPsych)"/>
+  <Var name="PATH_USER_MASK" value="USER:\" usedIn="EnVars/SysMap.xml" purpose="Published path alias for Windows user profile paths"/>
   <Var name="DNS_SENTINEL_REPO" value="https://github.com/GatoGodMode/DNS-Sentinel" usedIn="README.md#whats-building,README.md#dns-sentinel" purpose="Domain and email DNS migration auditing tool"/>
 </VarMap>

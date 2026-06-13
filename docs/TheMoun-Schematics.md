@@ -135,7 +135,7 @@ flowchart TB
 | Title | Moun / RawGraded Pro — Engineering build guide |
 | Revision | Rev B |
 | Date | 2026-04-09 |
-| Author | Joseph D. W. Edwards |
+| Author | Joseph Edwards |
 | CAD provenance | TinkerCAD export; per-part BOM requires separated bodies or STEP |
 
 **Change log**

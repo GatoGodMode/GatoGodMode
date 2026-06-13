@@ -34,5 +34,6 @@
   <Constraints>
     <Rule>TheMoun engineering artifacts in docs/ are intentionally published for portfolio showcase; other repos may retain separate confidentiality rules.</Rule>
     <Rule>Repo must remain named GatoGodMode to render as the profile README.</Rule>
+    <Rule>Local Windows paths in published docs use ROOT:\ for project roots and USER:\ for profile paths — never commit real drive letters or usernames.</Rule>
   </Constraints>
 </SysMap>

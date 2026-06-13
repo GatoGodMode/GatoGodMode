@@ -163,4 +163,4 @@ Key structural reads documented in engineering:
 
 ---
 
-*Author: Joseph D. W. Edwards · Last updated: 2026-06-10*
+*Author: Joseph Edwards · Last updated: 2026-06-10*
