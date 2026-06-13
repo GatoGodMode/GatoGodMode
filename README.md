@@ -2,27 +2,51 @@
   <img src="assets/raw-engine-banner.png" alt="RAW ENGINE" width="100%">
 </p>
 
-# Joseph Edwards · GatoGodMode
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20to%20Work-Contract%20%26%20Full--Time-2ea44f?style=for-the-badge" alt="Open to Work — Contract and Full-Time">
+</p>
 
-**CTO · I build local-first software empires: AI grading, market intelligence, and the CRMs businesses run on.**
+<h1 align="center">Joseph Edwards · GatoGodMode</h1>
 
-- **What I build** — custom CRMs, capture platforms, and business solutions for construction, solar, and roofing — plus bank- and government-grade integrations
-- **My ecosystem** — **RAW ENGINE**: local AI card grading, TCG market signals, a multi-asset markets terminal, and a physical capture workstation — privacy-first, runs on *your* machine
-- **Why scroll** — production Zoho orgs with ~100 automations, from-scratch multi-tenant platforms, Salesforce certified, **first Microsoft Store listing (RawInvestor)**, and a hardware product line on the way
+<p align="center">
+  <strong>Cyber Security · IAM · CRM Engineering</strong> — I ship access-controlled business systems with audit-grade discipline.
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-josephedwardscto-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josephedwardscto/)
-[![X](https://img.shields.io/badge/X-@GatoGodMode-000000?logo=x&logoColor=white)](https://x.com/GatoGodMode)
-[![RawGraded](https://img.shields.io/badge/Web-rawgraded.com-1f6feb)](https://rawgraded.com)
-[![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-RawInvestor-0078D4?logo=microsoft&logoColor=white)](https://apps.microsoft.com/detail/9PGX48NMDWQT)
-[![TheMoun](https://img.shields.io/badge/Hardware-themoun.com-2ea44f)](https://themoun.com)
+<p align="center">
+  <strong>Open to contract and full-time roles</strong> in identity, CRM/platform engineering, and security-focused product work.
+</p>
 
-> **Move on signal, not noise.** Unified data capture over a dozen browser tabs. Prescriptive signals over gut feel. 100% local processing over cloud tracking.
+<p align="center">
+  <img src="https://img.shields.io/badge/Cyber%20Security-0d1117?style=for-the-badge&logo=shield&logoColor=white" alt="Cyber Security">
+  <img src="https://img.shields.io/badge/IAM%20%2F%20RBAC-6f42c1?style=for-the-badge" alt="IAM / RBAC">
+  <img src="https://img.shields.io/badge/CRM%20Engineering-E42527?style=for-the-badge&logo=zoho&logoColor=white" alt="CRM Engineering">
+  <img src="https://img.shields.io/badge/Zoho%20%C2%B7%20Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="Zoho · Salesforce">
+  <img src="https://img.shields.io/badge/Open%20to%20Contract-1f6feb?style=for-the-badge" alt="Open to Contract">
+</p>
+
+- **IAM & security** — entity/field RBAC, MFA, audit trails, PII governance; [StrikeScope](https://github.com/GatoGodMode/StrikeScope) + bank/government-grade integration patterns
+- **CRM at scale** — production Zoho org (~100 automations), Salesforce certified (Admin + Advanced Admin), custom multi-tenant CRMs, lender/permitting API integrations
+- **Why me** — migration tooling ([DNS-Sentinel](https://github.com/GatoGodMode/DNS-Sentinel)), security hardening case studies, and full-stack delivery from schema to field PWAs
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/josephedwardscto/"><img src="https://img.shields.io/badge/LinkedIn-josephedwardscto-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://x.com/GatoGodMode"><img src="https://img.shields.io/badge/X-@GatoGodMode-000000?logo=x&logoColor=white" alt="X"></a>
+  <a href="https://rawgraded.com"><img src="https://img.shields.io/badge/Web-rawgraded.com-1f6feb" alt="RawGraded"></a>
+  <a href="https://apps.microsoft.com/detail/9PGX48NMDWQT"><img src="https://img.shields.io/badge/Microsoft%20Store-RawInvestor-0078D4?logo=microsoft&logoColor=white" alt="Microsoft Store RawInvestor"></a>
+  <a href="https://themoun.com"><img src="https://img.shields.io/badge/Hardware-themoun.com-2ea44f" alt="TheMoun"></a>
+</p>
+
+> **Secure the identity layer. Automate the CRM. Audit everything.** Role-scoped data, server-side secrets, idempotent migrations — production systems, not slide decks.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/josephedwardscto/"><img src="https://img.shields.io/badge/Let's%20Talk-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Let's talk on LinkedIn"></a>
+</p>
 
 ---
 
 ## What I'm Building
 
-Five projects, one pipeline: from physical capture, to local AI grading, to market intelligence.
+Five projects, one pipeline: shipped products and open-source tooling — from IAM platforms to migration audits.
 
 ```mermaid
 flowchart LR
@@ -375,6 +399,7 @@ Everything I build inverts that:
 
 ## Contact
 
+- **Availability:** Open to IAM, CRM, and security-focused engineering — contract or full-time · [LinkedIn](https://www.linkedin.com/in/josephedwardscto/)
 - **LinkedIn:** [linkedin.com/in/josephedwardscto](https://www.linkedin.com/in/josephedwardscto/)
 - **X:** [@GatoGodMode](https://x.com/GatoGodMode)
 - **Web:** [rawgraded.com](https://rawgraded.com) · [themoun.com](https://themoun.com)

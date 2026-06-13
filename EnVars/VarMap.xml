@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VarMap project="GatoGodMode-Profile" updated="2026-06-10">
   <!-- Static content repo: no runtime variables. Entries below are README link/identity constants. -->
+  <Var name="OPEN_TO_WORK" value="Contract and full-time — IAM, CRM, security-focused engineering" usedIn="README.md#hero,README.md#contact" purpose="Hiring availability signal"/>
   <Var name="GITHUB_USERNAME" value="GatoGodMode" usedIn="README.md" purpose="Repo name and profile identity"/>
   <Var name="LINKEDIN_URL" value="https://www.linkedin.com/in/josephedwardscto/" usedIn="README.md#intro,README.md#contact" purpose="Profile link"/>
   <Var name="X_URL" value="https://x.com/GatoGodMode" usedIn="README.md#intro,README.md#contact" purpose="Profile link"/>
