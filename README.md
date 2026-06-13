@@ -45,6 +45,10 @@
   <a href="https://www.linkedin.com/in/josephedwardscto/"><img src="https://img.shields.io/badge/Let's%20Talk-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Let's talk on LinkedIn"></a>
 </p>
 
+## Why I am Uploading Now
+
+> Most of my engineering career has been in private, proprietary systems. This GitHub is a curated release of the projects I can share publicly. Each one chosen because it demonstrates architecture, problem-solving, and product-level execution.
+
 ---
 
 ## What I'm Building
