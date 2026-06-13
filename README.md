@@ -43,6 +43,7 @@ flowchart LR
 | **[OrphanHunter](https://github.com/GatoGodMode/OrphanHunter)** | Crawl web apps — map variables, SQL tables, and references; find orphans and migration issues | Open source · v1.3 |
 | **[StrikeScope](https://github.com/GatoGodMode/StrikeScope)** | Self-hosted CRM + IAM — entity/field RBAC, MFA, audit, AI Dev Studio, automation orchestration | Open source · WIP sentinel |
 | **[PDF Size Reducer](https://github.com/GatoGodMode/PDF-Size-Reducer)** | Desktop PDF shrinker — 50 MB → ~2 MB; Ultra preset, size preview, portable exe for non-technical users | Open source · custom tooling |
+| **[LuxuryCatalog](https://github.com/GatoGodMode/LuxuryCatalog)** | B&W line art → photorealistic door catalog via Gemini Nano Banana; PDF export + disaster-recovery reverse engineering | Open source · custom tooling |
 
 Full architecture breakdowns are in the collapsible sections below.
 
@@ -222,6 +223,21 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 **Shipped:** Tkinter desktop app with **Ultra (max shrink)** Ghostscript profile, full preset ladder, Ghostscript + PyMuPDF raster modes, **Check Sizes** preview (runs every preset before commit), and **only keep if smaller** safety. Portable **73 MB exe** bundles Ghostscript — double-click for office staff.
 
 **Go deeper:** [Repository](https://github.com/GatoGodMode/PDF-Size-Reducer) · [Portable exe](https://github.com/GatoGodMode/PDF-Size-Reducer/blob/main/dist/PDF_Size_Reducer.exe)
+
+</details>
+
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-LuxuryCatalog%20%C2%B7%20AI%20catalog%20%26%20PDF%20recovery-4285F4?style=for-the-badge" alt="Expand: LuxuryCatalog"></picture></summary>
+
+<br>
+
+> Custom tooling: turn line-art door designs into a print-ready luxury catalog — and recover when cloud source data is gone.
+
+**Problem:** Manufacturer needed photorealistic catalog renders from B&W line art at SKU scale. Cloud assets were later deleted; only the finished PDF survived.
+
+**Shipped:** React + Vite app with **Gemini Nano Banana** (`gemini-2.5-flash-image` / `gemini-3.1-flash-image-preview`) queue processing, teal glass unification, jsPDF catalog export (covers, spreads, index), **PDF operator-list reverse engineering** to rebuild the IndexedDB queue from output PDF alone, WooCommerce ZIP export, and WP Media Mapper Chrome extension.
+
+**Go deeper:** [Repository](https://github.com/GatoGodMode/LuxuryCatalog) · [Showcase renders](https://github.com/GatoGodMode/LuxuryCatalog/tree/main/assets/showcase)
 
 </details>
 

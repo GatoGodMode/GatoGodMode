@@ -16,4 +16,5 @@
   <Var name="STRIKESCOPE_REPO" value="https://github.com/GatoGodMode/StrikeScope" usedIn="README.md#whats-building,README.md#strikescope" purpose="Self-hosted CRM IAM platform"/>
   <Var name="STRIKESCOPE_IAM_DOC" value="https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md" usedIn="README.md#strikescope" purpose="IAM documentation link"/>
   <Var name="PDF_SIZE_REDUCER_REPO" value="https://github.com/GatoGodMode/PDF-Size-Reducer" usedIn="README.md#whats-building,README.md#pdf-size-reducer" purpose="Desktop PDF compression tool"/>
+  <Var name="LUXURY_CATALOG_REPO" value="https://github.com/GatoGodMode/LuxuryCatalog" usedIn="README.md#whats-building,README.md#luxurycatalog" purpose="Gemini door catalog maker with PDF disaster recovery"/>
 </VarMap>
