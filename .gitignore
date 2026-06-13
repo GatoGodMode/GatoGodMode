@@ -1,0 +1,4 @@
+# Nested clones — keep out of profile repo index
+.orphan-temp/
+CollectorBuyerPsych/
+.themoun-tmp/

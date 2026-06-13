@@ -67,7 +67,7 @@ flowchart LR
 |---|---|---|
 | **RawEngine Local AI** | On-device vision AI catalogs defects; deterministic math assigns grades — no cloud required | Shipping |
 | **[RawGraded Studio](https://rawgraded.com)** · [source](https://github.com/GatoGodMode/RawGraded) | Know if a card is worth grading *before* you pay grading fees — redacted full monorepo (Electron, mobile, PHP vault) | [Shipping · open source](https://github.com/GatoGodMode/RawGraded) |
-| **RawInvestor** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts | [Shipping · Microsoft Store](https://apps.microsoft.com/detail/9PGX48NMDWQT) |
+| **RawInvestor** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts | [Shipping · Microsoft Store listing](https://apps.microsoft.com/detail/9PGX48NMDWQT) *(published app; not a Microsoft partnership)* |
 | **RawMarkets** | Local-first markets terminal for metals, energy, equities with an AI copilot | In progress |
 | **[TheMoun](https://themoun.com)** | Integrated physical capture workstation — EPIC line (Eco → Pro → Investor → Curator) | Hardware program |
 | **[CollectorBuyerPsych](https://github.com/GatoGodMode/CollectorBuyerPsych)** | Cited neuro-economic research — TCG, crypto, NFT, and gacha market psychology | Published research |
@@ -195,7 +195,7 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 **Custom CRM & business platforms** — multi-tenant CRMs built from scratch and deep customization of platform CRMs. Role-based access control, field-level PII governance, multi-role assignment (sales agents, project managers, regional managers), customer and agent portals, document/agreement vaults, and audit trails.
 
-**Enterprise Zoho development** — ran a production Zoho org for a multi-state solar/roofing operation with roughly **100 workflows and automations** spanning project scopes, activities, and pipeline stages:
+**Contract/consulting engagement:** configured a production Zoho org for a since-wound-down multi-state solar/roofing operator (independent engineering work — not an employee of that company or of Zoho) with roughly **100 workflows and automations** spanning project scopes, activities, and pipeline stages:
 
 - **Zoho Flow** automation suites orchestrating cross-app processes end to end
 - **Custom modules and calculators inside Zoho CRM** for advanced payout and commission math
@@ -207,7 +207,7 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 **Integrations, APIs & webhooks** — production webhook and API integrations with **banks/lenders** (financing flows) and **permitting jurisdictions**, plus Google Workspace sync, marketplace APIs, and document pipelines. Data migration between systems is routine work: CSV/structured imports, idempotent dated SQL migrations, dedupe-on-ingest, export/import tooling.
 
-**Sensitive-data discipline** — development experience at bank and government level: role-scoped visibility, server-side key handling, audit/activity trails, and duplicate-safe, charset-safe migration practices.
+**Security patterns aligned with regulated environments** — banking- and government-style RBAC, role-scoped visibility, server-side key handling, audit/activity trails, and duplicate-safe, charset-safe migration practices.
 
 </details>
 
@@ -265,7 +265,7 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 > Custom tooling: turn line-art door designs into a print-ready luxury catalog — and recover when cloud source data is gone.
 
-**Problem:** Manufacturer needed photorealistic catalog renders from B&W line art at SKU scale. Cloud assets were later deleted; only the finished PDF survived.
+**Problem:** An unnamed manufacturer client needed photorealistic catalog renders from B&W line art at SKU scale. Cloud assets were later deleted; only the finished PDF survived.
 
 **Shipped:** React + Vite app with **Gemini Nano Banana** (`gemini-2.5-flash-image` / `gemini-3.1-flash-image-preview`) queue processing, teal glass unification, jsPDF catalog export (covers, spreads, index), **PDF operator-list reverse engineering** to rebuild the IndexedDB queue from output PDF alone, WooCommerce ZIP export, and WP Media Mapper Chrome extension.
 
@@ -403,6 +403,12 @@ Everything I build inverts that:
 **Go deeper:** [Product Whitepaper](docs/TheMoun-Whitepaper.md) · [Market Research](docs/TheMoun-Market-Research.md) · [Model Schematics](docs/TheMoun-Schematics.md)
 
 </details>
+
+---
+
+## Legal & third-party notice
+
+Third-party names, logos, and certifications (Zoho, Salesforce, Microsoft, Google, PSA, Pokémon, etc.) are used descriptively only. **No endorsement, partnership, employment, or agency relationship is implied.** Past client work describes independent engineering engagements unless explicitly labeled as a public case study repository.
 
 ---
 

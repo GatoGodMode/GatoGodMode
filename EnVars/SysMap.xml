@@ -11,6 +11,7 @@
       <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies + link to RoofRoofTexas-Rebuild public case-study repo. Summaries styled as for-the-badge EXPAND button bars"/>
       <Section id="deep-dives" purpose="Collapsible per-project incl RawGraded source, StrikeScope, PDF Size Reducer, LuxuryCatalog, DNS-Sentinel"/>
       <Section id="contact" purpose="Footer links"/>
+      <Section id="legal-third-party-notice" purpose="No endorsement/partnership/employment disclaimer for third-party marks and past client work"/>
     </File>
     <Folder path="assets" role="Repo images">
       <File path="assets/raw-engine-banner.png" role="Hero banner image"/>
