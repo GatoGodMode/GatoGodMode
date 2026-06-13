@@ -3,6 +3,7 @@
   <Structure>
     <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
       <Section id="banner" purpose="RAW ENGINE robot banner image (assets/raw-engine-banner.png)"/>
+      <Section id="portfolio-notice" purpose="GitHub NOTE alert: proprietary enterprise/AI work vs public showcase repos"/>
       <Section id="hero" purpose="RAW ENGINE banner; Open to Work badge; specialty tagline (Cyber Security · IAM · CRM); contract/full-time availability; specialty shield row; IAM/CRM proof bullets; social badges; security discipline blockquote; LinkedIn CTA"/>
       <Section id="whats-building" purpose="Ecosystem highlight: table incl LuxuryCatalog and DNS-Sentinel custom tooling"/>
       <Section id="tech-stack" purpose="Compact visible badge row + Salesforce certification badges; full toolbox badge wall in collapsible details"/>

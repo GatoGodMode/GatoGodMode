@@ -2,6 +2,9 @@
   <img src="assets/raw-engine-banner.png" alt="RAW ENGINE" width="100%">
 </p>
 
+> [!NOTE]
+> I've spent years building proprietary systems for enterprise and local/cloud AI driven workflows. This GitHub selectively showcases projects I can share publicly, each representing a core architectural pattern I've developed.
+
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20to%20Work-Contract%20%26%20Full--Time-2ea44f?style=for-the-badge" alt="Open to Work — Contract and Full-Time">
 </p>
