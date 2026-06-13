@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" role="img" aria-label="Moun system electrical schematic">
+<defs><pattern id="schGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+<path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e7e5e4" stroke-width="0.5"/></pattern></defs>
+<rect width="820" height="560" fill="#fafaf9"/>
+<rect width="820" height="560" fill="url(#schGrid)" opacity="0.65"/>
+<text x="24" y="36" font-size="13" font-weight="800" fill="#1c1917">Moun — system schematic (conceptual)</text>
+<text x="24" y="52" font-size="9" fill="#78716c">Not a substitute for signed ECAD outputs — design review and BOM discussion only.</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="96,308 160,308 160,300" opacity="0.92"/>
+<polyline fill="none" stroke="#dc2626" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="248,300 520,300 520,332 560,332" opacity="0.92"/>
+<polyline fill="none" stroke="#52525b" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="96,344 160,344 160,340" opacity="0.92"/>
+<polyline fill="none" stroke="#52525b" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="248,348 320,348 320,420 360,420" opacity="0.92"/>
+<polyline fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="248,308 320,308 320,156 360,156" opacity="0.92"/>
+<polyline fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="320,156 560,156" opacity="0.92"/>
+<polyline fill="none" stroke="#0d9488" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="480,164 520,164 520,148 560,148" opacity="0.92"/>
+<polyline fill="none" stroke="#0d9488" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="480,192 520,192 520,180 560,180" opacity="0.92"/>
+<polyline fill="none" stroke="#7c3aed" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="480,228 520,228 520,412 592,412" opacity="0.92"/>
+<polyline fill="none" stroke="#6d28d9" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="480,256 520,256 520,412 624,412" opacity="0.92"/>
+<polyline fill="none" stroke="#ca8a04" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="480,284 500,284 500,484 560,484" opacity="0.92"/>
+<polyline fill="none" stroke="#be123c" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="272,152 320,152 320,228 360,228" opacity="0.92"/>
+<polyline fill="none" stroke="#be123c" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="272,184 340,184 340,264 360,264" opacity="0.92"/>
+<polyline fill="none" stroke="#4338ca" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="656,340 674,340 692,340" opacity="0.92"/>
+<polyline fill="none" stroke="#4338ca" stroke-width="2" stroke-linejoin="miter" stroke-linecap="square" points="656,380 674,380 692,372" opacity="0.92"/>
+<rect x="32" y="280" width="64" height="88" rx="6" fill="#ffffff" stroke="#292524" stroke-width="1.75"/>
+<text x="40" y="296" font-size="10" font-weight="800" fill="#d97706">J1</text>
+<text x="64.0" y="314" text-anchor="middle" font-size="10" font-weight="700" fill="#1c1917">DC IN</text>
+<text x="64.0" y="328" text-anchor="middle" font-size="8" fill="#78716c">12 V nominal</text>
+<rect x="160" y="268" width="88" height="112" rx="6" fill="#ffffff" stroke="#292524" stroke-width="1.75"/>
+<text x="168" y="284" font-size="10" font-weight="800" fill="#d97706">U2</text>
+<text x="204.0" y="302" text-anchor="middle" font-size="10" font-weight="700" fill="#1c1917">BUCK</text>
+<text x="204.0" y="316" text-anchor="middle" font-size="8" fill="#78716c">12V→5V</text>
+<rect x="360" y="120" width="120" height="200" rx="6" fill="#ffffff" stroke="#292524" stroke-width="1.75"/>
+<text x="368" y="136" font-size="10" font-weight="800" fill="#d97706">U1</text>
+<text x="420.0" y="154" text-anchor="middle" font-size="10" font-weight="700" fill="#1c1917">MCU</text>
+<text x="420.0" y="168" text-anchor="middle" font-size="8" fill="#78716c">ATmega328P class</text>
+<rect x="560" y="132" width="88" height="96" rx="6" fill="#ffffff" stroke="#292524" stroke-width="1.75"/>
+<text x="568" y="148" font-size="10" font-weight="800" fill="#d97706">U3</text>
+<text x="604.0" y="166" text-anchor="middle" font-size="10" font-weight="700" fill="#1c1917">IMU</text>
+<text x="604.0" y="180" text-anchor="middle" font-size="8" fill="#78716c">MPU-6050 class</text>
+<rect x="560" y="300" width="96" height="112" rx="6" fill="#ffffff" stroke="#292524" stroke-width="1.75"/>
+<text x="568" y="316" font-size="10" font-weight="800" fill="#d97706">U4</text>
+<text x="608.0" y="334" text-anchor="middle" font-size="10" font-weight="700" fill="#1c1917">STEP DRV</text>
+<text x="608.0" y="348" text-anchor="middle" font-size="8" fill="#78716c">A4988 class</text>
+<rect x="692" y="312" width="52" height="72" rx="6" fill="#ffffff" stroke="#292524" stroke-width="1.75"/>
+<text x="700" y="328" font-size="10" font-weight="800" fill="#d97706">J2</text>
+<text x="718.0" y="346" text-anchor="middle" font-size="10" font-weight="700" fill="#1c1917">MOTOR</text>
+<text x="718.0" y="360" text-anchor="middle" font-size="8" fill="#78716c">Bipolar</text>
+<rect x="360" y="380" width="200" height="72" rx="6" fill="#ffffff" stroke="#292524" stroke-width="1.75"/>
+<text x="368" y="396" font-size="10" font-weight="800" fill="#d97706">J3</text>
+<text x="460.0" y="414" text-anchor="middle" font-size="10" font-weight="700" fill="#1c1917">POGO BRIDGE</text>
+<text x="460.0" y="428" text-anchor="middle" font-size="8" fill="#78716c">B↔C</text>
+<rect x="560" y="460" width="56" height="64" rx="6" fill="#ffffff" stroke="#292524" stroke-width="1.75"/>
+<text x="568" y="476" font-size="10" font-weight="800" fill="#d97706">Q1</text>
+<text x="588.0" y="494" text-anchor="middle" font-size="10" font-weight="700" fill="#1c1917">NFET</text>
+<text x="588.0" y="508" text-anchor="middle" font-size="8" fill="#78716c">LED dim</text>
+<rect x="200" y="120" width="72" height="88" rx="6" fill="#ffffff" stroke="#292524" stroke-width="1.75"/>
+<text x="208" y="136" font-size="10" font-weight="800" fill="#d97706">J4</text>
+<text x="236.0" y="154" text-anchor="middle" font-size="10" font-weight="700" fill="#1c1917">LIMITS</text>
+<text x="236.0" y="168" text-anchor="middle" font-size="8" fill="#78716c">Hall / switch</text>
+<text x="24" y="496" font-size="8" font-weight="700" fill="#57534e">Net legend</text>
+<line x1="24" y1="508" x2="42" y2="508" stroke="#dc2626" stroke-width="3"/>
+<text x="48" y="511" font-size="7.5" fill="#57534e">+12 V bus</text>
+<line x1="24" y1="520" x2="42" y2="520" stroke="#ea580c" stroke-width="3"/>
+<text x="48" y="523" font-size="7.5" fill="#57534e">+5 V logic</text>
+<line x1="24" y1="532" x2="42" y2="532" stroke="#52525b" stroke-width="3"/>
+<text x="48" y="535" font-size="7.5" fill="#57534e">Ground</text>
+<line x1="24" y1="544" x2="42" y2="544" stroke="#0d9488" stroke-width="3"/>
+<text x="48" y="547" font-size="7.5" fill="#57534e">I2C (SDA/SCL)</text>
+<line x1="24" y1="556" x2="42" y2="556" stroke="#7c3aed" stroke-width="3"/>
+<text x="48" y="559" font-size="7.5" fill="#57534e">Step pulse</text>
+<line x1="144" y1="508" x2="162" y2="508" stroke="#6d28d9" stroke-width="3"/>
+<text x="168" y="511" font-size="7.5" fill="#57534e">Direction</text>
+<line x1="144" y1="520" x2="162" y2="520" stroke="#ca8a04" stroke-width="3"/>
+<text x="168" y="523" font-size="7.5" fill="#57534e">LED PWM</text>
+<line x1="144" y1="532" x2="162" y2="532" stroke="#be123c" stroke-width="3"/>
+<text x="168" y="535" font-size="7.5" fill="#57534e">Limit inputs</text>
+<line x1="144" y1="544" x2="162" y2="544" stroke="#d97706" stroke-width="3"/>
+<text x="168" y="547" font-size="7.5" fill="#57534e">Bridge / motion interface</text>
+<line x1="144" y1="556" x2="162" y2="556" stroke="#4338ca" stroke-width="3"/>
+<text x="168" y="559" font-size="7.5" fill="#57534e">Stepper coil drive</text>
+<g transform="translate(520, 472)">
+<rect x="0" y="0" width="276" height="72" fill="#fff" stroke="#d6d3d1" stroke-width="1" rx="4"/>
+<text x="12" y="18" font-size="8" font-weight="800" fill="#1c1917">Title block</text>
+<text x="12" y="34" font-size="7.5" fill="#57534e">Moun / RawGraded Pro — Engineering build guide</text>
+<text x="12" y="48" font-size="7.5" fill="#57534e">Rev B · 2026-04-09 · Sheet 1/1</text>
+<text x="12" y="62" font-size="7" fill="#a8a29e">ECAD sync: pending — diff against KiCad / Altium release.</text>
+</g>
+<text x="460" y="452" text-anchor="middle" font-size="8" fill="#57534e" font-style="italic">J3 pad field — correlate pads 1–6 to MCU nets in bridge pinout table</text>
+</svg>

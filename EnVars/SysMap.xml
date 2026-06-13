@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SysMap project="GatoGodMode-Profile" updated="2026-06-09">
+<SysMap project="GatoGodMode-Profile" updated="2026-06-10">
   <Structure>
     <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
       <Section id="banner" purpose="RAW ENGINE robot banner image (assets/raw-engine-banner.png)"/>
@@ -7,20 +7,30 @@
       <Section id="whats-building" purpose="Ecosystem highlight: mermaid pipeline diagram + project/status table"/>
       <Section id="tech-stack" purpose="Compact visible badge row + Salesforce certification badges; full toolbox badge wall in collapsible details"/>
       <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies + link to RoofRoofTexas-Rebuild public case-study repo. Summaries styled as for-the-badge EXPAND button bars"/>
-      <Section id="deep-dives" purpose="Collapsible per-project: Philosophy table, RawEngine, RawGraded, RawInvestor, RawMarkets, TheMoun (with docs links). Summaries styled as color-coded for-the-badge EXPAND button bars"/>
+      <Section id="deep-dives" purpose="Collapsible per-project: Philosophy table, RawEngine, RawGraded, RawInvestor, RawMarkets, TheMoun (with docs links incl schematics). Summaries styled as color-coded for-the-badge EXPAND button bars"/>
       <Section id="contact" purpose="Footer links"/>
     </File>
     <Folder path="assets" role="Repo images">
       <File path="assets/raw-engine-banner.png" role="Hero banner image"/>
     </Folder>
-    <Folder path="docs" role="Public-edition project documents">
-      <File path="docs/TheMoun-Whitepaper.md" role="Public whitepaper: thesis, pain points, EPIC staged rollout, design principles; excludes engineering/IP internals"/>
-      <File path="docs/TheMoun-Market-Research.md" role="Public market research: fragmentation thesis, demand signals (cited), grading economics, comps story"/>
+    <Folder path="docs" role="Published TheMoun diligence package">
+      <File path="docs/TheMoun-Whitepaper.md" role="Product whitepaper: thesis, EPIC rollout, engineering architecture, IP themes"/>
+      <File path="docs/TheMoun-Market-Research.md" role="Market research: fragmentation thesis, cited demand signals, grading economics"/>
+      <File path="docs/TheMoun-Schematics.md" role="Mechanical ortho, system electrical schematic, OBJ reference mesh"/>
+    </Folder>
+    <Folder path="docs/assets/themoun" role="TheMoun schematic and CAD assets">
+      <File path="docs/assets/themoun/moun-mechanical-front-schematic.svg" role="Moun I front orthographic schematic"/>
+      <File path="docs/assets/themoun/moun-system-electrical-schematic.svg" role="Investor-class system electrical block diagram"/>
+      <File path="docs/assets/themoun/moun-investor-reference.obj" role="TinkerCAD reference mesh"/>
+      <File path="docs/assets/themoun/moun-investor-reference.mtl" role="OBJ material library"/>
+    </Folder>
+    <Folder path="scripts" role="Build utilities">
+      <File path="scripts/gen-moun-electrical-svg.py" role="Regenerates system electrical schematic SVG from engineering model"/>
     </Folder>
     <Folder path="EnVars" role="Structural and variable maps only; no other content permitted"/>
   </Structure>
   <Constraints>
-    <Rule>Never reveal builds: no ports, env vars, routes, scraper selectors, model wrapper names, npm scripts, BOM/firmware details, or internal folder names.</Rule>
+    <Rule>TheMoun engineering artifacts in docs/ are intentionally published for portfolio showcase; other repos may retain separate confidentiality rules.</Rule>
     <Rule>Repo must remain named GatoGodMode to render as the profile README.</Rule>
   </Constraints>
 </SysMap>

@@ -299,7 +299,7 @@ Everything I build inverts that:
 
 **Design highlights:** unified TCG + coin reference geometry via removable translucent guides, flippable mark-free deck inserts for clean AI/listing imagery, medical-grade silicone edge protection, and modular serviceability — replaceable wear parts instead of glued monoliths.
 
-**Go deeper:** [Product Whitepaper](docs/TheMoun-Whitepaper.md) · [Market Research](docs/TheMoun-Market-Research.md)
+**Go deeper:** [Product Whitepaper](docs/TheMoun-Whitepaper.md) · [Market Research](docs/TheMoun-Market-Research.md) · [Model Schematics](docs/TheMoun-Schematics.md)
 
 </details>
 

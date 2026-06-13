@@ -1,10 +1,10 @@
-# TheMoun — Market Research (Public Edition)
+# TheMoun — Market Research
 
 > Why fragmented "mixed modules" cap outcomes — and how an integrated station unlocks AI, pricing, and visual search at full strength.
 >
 > [themoun.com](https://themoun.com)
 
-*Public edition. Sources are cited where figures appear; internal diligence screenshots and unit economics are excluded.*
+*Published edition with cited demand signals, grading economics, and workflow analysis. Companion docs: [Whitepaper](TheMoun-Whitepaper.md) · [Model Schematics](TheMoun-Schematics.md).*
 
 ---
 
@@ -42,21 +42,34 @@ Ecommerce is full of folding photo studios, fabric light tents, and C-clamp over
 3. **Reverse image search** — sharp corners, true color, and square-on geometry maximize match quality versus ad-hoc snapshots
 4. **Video-native grading** — when workflows ask for multi-angle passes, one coordinated motion-and-lighting rig beats restaging the specimen for every clip
 
+---
+
 ## Demand Signals
 
 ### Search demand stays structurally elevated
 
-Across a five-year window, U.S. web search interest for "Pokémon" (Google Trends) retreated from the late-2022/early-2023 spike but remains structurally elevated versus the early-2021 baseline, with a renewed climb into 2025–2026 approaching prior highs. Past-year curves show volatile but rising momentum consistent with set drops, Championships marketing, and content cycles. YouTube-channel trends pulse in parallel — video discovery rides the same keyword.
+Across a five-year window, U.S. web search interest for "Pokémon" ([Google Trends](https://trends.google.com/trends/explore?geo=US&q=pokemon)) retreated from the late-2022/early-2023 spike but remains structurally elevated versus the early-2021 baseline, with a renewed climb into 2025–2026 approaching prior highs. Past-year curves show volatile but rising momentum consistent with set drops, Championships marketing, and content cycles. YouTube-channel trends pulse in parallel — video discovery rides the same keyword.
 
-*(Google Trends shows relative interest, 0–100, not absolute search counts.)*
+*(Google Trends shows relative interest, 0–100, not absolute search counts — see [how to read Trends](https://support.google.com/trends/answer/4365533?hl=en).)*
+
+### Trending games signal funnel spikes
+
+In an April 2026 capture, **"pokémon champions"** led Google's Games trending list (United States, 7 days) with six-figure-plus reported volume and very high week-over-week growth — flagship game launches spill into search behavior at the top of the funnel.
 
 ### Year-round set rhythm
 
-Pokémon TCG does not rely on a single holiday beat: multiple set windows ship per year, keeping listing, grading, and comp workflows busy continuously.
+Pokémon TCG does not rely on a single holiday beat: multiple set windows ship per year ([example 2026 calendar](https://screenrant.com/pokemon-tcg-sets-2026-all-releases-dates/)), keeping listing, grading, and comp workflows busy continuously.
 
 ### Secondary-market velocity
 
-Filtered sold/completed Pokémon listings on eBay over a short recent window showed **millions of rows** — roughly 3.5M+ broad, and 2.9M+ scoped to CCG individual cards (April 2026 captures). When millions of cards turn over in days, "good enough" phone snapshots fail at scale.
+Filtered sold/completed Pokémon listings on eBay over a short recent window showed **millions of rows**:
+
+| Scope | Approx. sold rows (April 2026 capture) | Filter URL |
+|---|---|---|
+| Broad Pokémon query | 3,500,000+ | [eBay sold search](https://www.ebay.com/sch/i.html?_nkw=Pokemon&LH_Complete=1&LH_Sold=1&LH_Time=1&_ftrt=901&_ftrv=148) |
+| CCG individual cards | 2,900,000+ | [eBay CCG cards sold](https://www.ebay.com/sch/183454/i.html?_nkw=Pokemon&LH_Complete=1&LH_Sold=1&LH_Time=1&_ftrt=901&_ftrv=148) |
+
+When millions of cards turn over in days, "good enough" phone snapshots fail at scale.
 
 ### Grading volume is measured in millions per month
 
@@ -68,20 +81,67 @@ Per Sports Illustrated reporting of [GemRate](https://www.si.com/collectibles/ma
 
 Press coverage quoting PSA put throughput at roughly **15,000 cards/day globally in 2021 versus ~90,000/day** by early 2026 ([Yahoo Sports / cllct](https://sports.yahoo.com/articles/psa-increasing-prices-turnaround-time-141500962.html)).
 
+---
+
 ## The Economics Gap: DIY Prep Spend vs. Grading Fees
 
 Collectors comparison-shop desk magnifiers (~$35–120), centering aids (~$10–25), cleaning kits and holders (~$25–90), and add-on ring lights or tripods (~$25–65) — a serious piecemeal hobbyist stack often lands **~$95–300 combined** — while simultaneously routing large sums through PSA, CGC, Beckett, TAG, and peers.
 
-PSA's official February 2026 bulletin listed card submission prices from **$24.99 (Value Bulk) to $79.99 (Regular)** per card ([psacard.com](https://www.psacard.com/info/submission-updates)). At ~3M items/month industry-wide, even conservative hypothetical average fees imply **order-of-magnitude $75M–$180M in monthly service spend** (sensitivity illustration only — not reported revenue).
+PSA's official February 2026 bulletin listed card submission prices from **$24.99 (Value Bulk) to $79.99 (Regular)** per card ([psacard.com](https://www.psacard.com/info/submission-updates)). At ~3M items/month industry-wide, even conservative hypothetical average fees imply **order-of-magnitude $75M–$180M in monthly service spend** (sensitivity illustration only — not reported revenue):
+
+| Hypothetical average fee | Implied monthly spend (~2.97M items) |
+|---|---|
+| $25 | ~$74M |
+| $40 | ~$119M |
+| $60 | ~$178M |
+
+**Representative DIY prep basket (directional retail spot-checks):**
+
+| Item | Typical range |
+|---|---|
+| LED magnifier / task inspection lamp | $35–120 |
+| Centering / comparison aid | $10–25 |
+| Cleaning kit + sleeves / semi-rigid holders | $25–90 |
+| Ring light or small tripod (often added) | $25–65 |
+| Bundled hobby "starter" kits (promotional) | ~$12–16 |
 
 **The takeaway:** hardware that improves pre-submission capture is a rounding error next to grading invoices — but it materially affects match quality, resubmission rates, and time-to-list. Moun monetizes once on the prep-and-capture layer; grading incumbents monetize per item at scale. Small improvements in imagery and operator consistency compound across the entire downstream stack.
 
+---
+
 ## Quick Comps Beat Manual Typing
 
-Same-day secondary-market listings for identical items coexist at wildly different price points — desk shots, handheld snaps, and stand displays all competing for buyer trust. Typing full card names, set names, numbers, and variant filters is slow and error-prone under con-floor or counter pressure. Image-recognition flows on major platforms collapse that path **when the camera feed is legible** — routing to structured product pages and live comps in seconds.
+Same-day secondary-market listings for identical items coexist at wildly different price points — desk shots, handheld snaps, and stand displays all competing for buyer trust. Auctions can diverge sharply from buy-it-now medians in the same week.
 
-The handset is already the sensor. **Moun supplies the environment** — even light, top-down geometry, controlled glare — so automated matchers and human review agree on the same asset, raw or slabbed: re-listing, verification, insurance photos, and show-floor trades all reward the same capability.
+Shops and collectors need that check whether the item is raw or already encapsulated: re-listing, verification, insurance photos, and show-floor trades all reward the same thing — **fast, trustworthy identification and price context**.
+
+Typing full Pokémon names, set names, card numbers, and variant filters is slow and error-prone under con-floor or counter pressure. Image-recognition flows on major platforms collapse that path **when the camera feed is legible** — routing to structured product pages and live comps in seconds.
+
+The handset is already the sensor. **Moun supplies the environment** — even light, top-down geometry, controlled glare — so automated matchers and human review agree on the same asset, raw or slabbed.
 
 ---
 
-*Retail price bands are directional spot-checks, not a formal survey. Third-party marks (Pokémon, Google, YouTube, eBay, TCGplayer, PSA, CGC, Beckett, SGC, TAG, GemRate) belong to their respective owners; no endorsement or partnership is implied.*
+## Margin Opportunity Synthesis
+
+The integrated storyboard ties four lenses:
+
+1. **Product fit** — Moun E precision optics and dual-plane LED callouts vs fragmented retail
+2. **Demand** — Pokémon U.S. web search trend with YouTube parallel; set-drop rhythm
+3. **Throughput** — grading volume charts and workflow efficiency (manual vs staged capture)
+4. **Channels** — eBay, TCGplayer, Google, PriceCharting, Amazon toward structured product pages
+
+Each panel should be reconciled with primary data above; forward-looking labels are planning language only.
+
+---
+
+## Interpretation Guardrails
+
+- Google Trends shows **relative** interest (0–100), not absolute search counts
+- eBay "results" totals are produced by eBay's live search and change as listings age; figures cited match captures from **2026-04-09** and the filter URLs above
+- Retail price bands are directional spot-checks, not a formal survey
+- Third-party marks (Pokémon, Google, YouTube, eBay, TCGplayer, PSA, CGC, Beckett, SGC, TAG, GemRate) belong to their respective owners; **no endorsement or partnership is implied**
+- Third-party marks name tools collectors already use; this document describes integration opportunity at the user workflow level
+
+---
+
+*Author: Joseph D. W. Edwards · Last updated: 2026-06-10*
