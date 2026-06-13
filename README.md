@@ -40,6 +40,7 @@ flowchart LR
 | **RawMarkets** | Local-first markets terminal for metals, energy, equities with an AI copilot | In progress |
 | **[TheMoun](https://themoun.com)** | Integrated physical capture workstation — EPIC line (Eco → Pro → Investor → Curator) | Hardware program |
 | **[CollectorBuyerPsych](https://github.com/GatoGodMode/CollectorBuyerPsych)** | Cited neuro-economic research — TCG, crypto, NFT, and gacha market psychology | Published research |
+| **[OrphanHunter](https://github.com/GatoGodMode/OrphanHunter)** | Crawl web apps — map variables, SQL tables, and references; find orphans and migration issues | Open source · v1.3 |
 
 Full architecture breakdowns are in the collapsible sections below.
 
