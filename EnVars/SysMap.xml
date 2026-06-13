@@ -9,7 +9,7 @@
       <Section id="whats-building" purpose="Ecosystem highlight: table incl RawGraded source repo, RoofRoofTexas case study, LuxuryCatalog and DNS-Sentinel custom tooling"/>
       <Section id="tech-stack" purpose="Compact visible badge row + Salesforce certification badges; full toolbox badge wall in collapsible details"/>
       <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies; RoofRoofTexas full rebuild EXPAND with before/after assets; link from private builds to RoofRoofTexas anchor. Summaries styled as for-the-badge EXPAND button bars"/>
-      <Section id="deep-dives" purpose="Collapsible per-project incl RawGraded source with visual showcase hero, RawInvestor MS Store visual proof, StrikeScope, PDF Size Reducer, LuxuryCatalog, DNS-Sentinel"/>
+      <Section id="deep-dives" purpose="Collapsible per-project incl RawGraded source with visual showcase hero, RawInvestor MS Store visual proof and open assurance repo links, StrikeScope, PDF Size Reducer, LuxuryCatalog, DNS-Sentinel"/>
       <Section id="contact" purpose="Footer links"/>
       <Section id="legal-third-party-notice" purpose="No endorsement/partnership/employment disclaimer for third-party marks and past client work"/>
     </File>

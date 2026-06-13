@@ -36,7 +36,7 @@
 | If you are… | Start here |
 |---|---|
 | **Security / IAM reviewer** | [StrikeScope IAM](#strikescope--iam--platform-engineering) · [RawGraded threat model](https://github.com/GatoGodMode/RawGraded#threat-model) · [RoofRoofTexas hardening](#roofrooftexas--full-rebuild-case-study) |
-| **Product / platform engineer** | [RawInvestor (Microsoft Store)](#rawinvestor--buy-hold-grade-or-sell-with-math) · [RawGraded open source](https://github.com/GatoGodMode/RawGraded) · local-first / loopback-only architecture |
+| **Product / platform engineer** | [RawInvestor (Microsoft Store)](#rawinvestor--buy-hold-grade-or-sell-with-math) · [RawInvestor assurance repo](https://github.com/GatoGodMode/RawInvestor#how-the-software-works) · [RawGraded open source](https://github.com/GatoGodMode/RawGraded) |
 | **CRM / business systems** | [Zoho at scale](#crms--zoho-at-scale--banks--permitting-integrations) · [RoofRoofTexas delivery case study](#roofrooftexas--full-rebuild-case-study) · [StrikeScope pipeline](#strikescope--iam--platform-engineering) |
 
 <p align="center">
@@ -75,7 +75,7 @@ flowchart LR
 |---|---|---|
 | **RawEngine Local AI** | On-device vision AI catalogs defects; deterministic math assigns grades — no cloud required | Shipping |
 | **[RawGraded Studio](https://rawgraded.com)** · [source](https://github.com/GatoGodMode/RawGraded) | Know if a card is worth grading *before* you pay grading fees — public assurance repo (Electron, PHP vault API, threat model) | [Shipping · open source](https://github.com/GatoGodMode/RawGraded) |
-| **RawInvestor** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts | [Shipping · Microsoft Store listing](https://apps.microsoft.com/detail/9PGX48NMDWQT) *(published app; not a Microsoft partnership)* |
+| **[RawInvestor](https://github.com/GatoGodMode/RawInvestor)** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts (loopback API, public assurance repo) | [Shipping · Microsoft Store](https://apps.microsoft.com/detail/9PGX48NMDWQT) · [open source](https://github.com/GatoGodMode/RawInvestor) |
 | **RawMarkets** | Local-first markets terminal for metals, energy, equities with an AI copilot | In progress |
 | **[TheMoun](https://themoun.com)** | Integrated physical capture workstation — EPIC line (Eco → Pro → Investor → Curator) | Hardware program |
 | **[CollectorBuyerPsych](https://github.com/GatoGodMode/CollectorBuyerPsych)** | Cited neuro-economic research — TCG, crypto, NFT, and gacha market psychology | Published research |
@@ -427,7 +427,9 @@ Everything I build inverts that:
 
 **Highlights:** Nebula 3D portfolio classification (Buy / Sell / Hold / Sleeper / Climber / Dud / NGMI), deal-hunting "Arsenal" targets, sealed product EV, themed share graphics, streamer mode.
 
-**Go deeper:** [RawInvestor repo](https://github.com/GatoGodMode/RawInvestor) · [Microsoft Store listing](https://apps.microsoft.com/detail/9PGX48NMDWQT)
+**Public source:** [GatoGodMode/RawInvestor](https://github.com/GatoGodMode/RawInvestor) — security-assured reference publication (Electron, loopback Express API, MV3 extension). Release integrity gate: `node scripts/publish-preflight.cjs`.
+
+**Go deeper:** [Security posture](https://github.com/GatoGodMode/RawInvestor#security-posture-at-a-glance) · [How it works](https://github.com/GatoGodMode/RawInvestor#how-the-software-works) · [Microsoft Store listing](https://apps.microsoft.com/detail/9PGX48NMDWQT)
 
 </details>
 

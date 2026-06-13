@@ -11,6 +11,7 @@
   <Var name="MOUN_WHITEPAPER_PATH" value="docs/TheMoun-Whitepaper.md" usedIn="README.md#themoun" purpose="Whitepaper link"/>
   <Var name="MOUN_MARKET_RESEARCH_PATH" value="docs/TheMoun-Market-Research.md" usedIn="README.md#themoun" purpose="Market research link"/>
   <Var name="MOUN_SCHEMATICS_PATH" value="docs/TheMoun-Schematics.md" usedIn="README.md#themoun" purpose="Schematics link"/>
+  <Var name="RAW_INVESTOR_REPO" value="https://github.com/GatoGodMode/RawInvestor" usedIn="README.md#whats-building,README.md#rawinvestor" purpose="Public assurance RawInvestor repository"/>
   <Var name="RAW_INVESTOR_MS_STORE_URL" value="https://apps.microsoft.com/detail/9PGX48NMDWQT" usedIn="README.md#whats-building,README.md#hero,README.md#rawinvestor" purpose="Microsoft Store listing for RawInvestor"/>
   <Var name="RAW_INVESTOR_MS_STORE_ID" value="9PGX48NMDWQT" usedIn="EnVars/VarMap.xml" purpose="Store product id"/>
   <Var name="RAW_INVESTOR_STORE_IMAGE" value="assets/rawinvestor/microsoft-store-listing.png" usedIn="README.md#rawinvestor" purpose="Microsoft Store listing screenshot in profile README"/>
