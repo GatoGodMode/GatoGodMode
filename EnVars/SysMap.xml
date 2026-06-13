@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SysMap project="GatoGodMode-Profile" updated="2026-06-13">
+<SysMap project="GatoGodMode-Profile" updated="2026-06-10">
   <Structure>
     <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
       <Section id="banner" purpose="RAW ENGINE robot banner image (assets/raw-engine-banner.png)"/>
-      <Section id="portfolio-notice" purpose="GitHub NOTE alert: proprietary enterprise/AI work vs public showcase repos"/>
-      <Section id="hero" purpose="RAW ENGINE banner; Open to Work badge; specialty tagline (Cyber Security · IAM · CRM); contract/full-time availability; specialty shield row; IAM/CRM proof bullets; three-reader routing table; social badges; security discipline blockquote; LinkedIn CTA"/>
-      <Section id="why-uploading-now" purpose="Curated public release rationale: private proprietary career vs shareable architectural showcases"/>
-      <Section id="whats-building" purpose="Ecosystem highlight: table incl RawGraded source repo, RoofRoofTexas case study, LuxuryCatalog and DNS-Sentinel custom tooling"/>
-      <Section id="tech-stack" purpose="Compact visible badge row + Salesforce certification badges; full toolbox badge wall in collapsible details"/>
-      <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies; RoofRoofTexas full rebuild EXPAND with before/after assets; link from private builds to RoofRoofTexas anchor. Summaries styled as for-the-badge EXPAND button bars"/>
-      <Section id="deep-dives" purpose="Collapsible per-project incl RawGraded source with visual showcase hero, RawInvestor MS Store visual proof and open assurance repo links, StrikeScope, PDF Size Reducer, LuxuryCatalog, DNS-Sentinel"/>
-      <Section id="contact" purpose="Footer links"/>
-      <Section id="legal-third-party-notice" purpose="No endorsement/partnership/employment disclaimer for third-party marks and past client work"/>
+      <Section id="portfolio-notice" purpose="GitHub NOTE alert: professional portfolio — not OSS program; proprietary career vs reviewable case studies and assurance excerpts"/>
+      <Section id="hero" purpose="Open to Work + Portfolio badges; specialty tagline (Cyber Security · IAM · CRM); explicit target roles list; specialty shield row; IAM/CRM/security proof bullets; hiring-lane routing table; social badges; security discipline blockquote; LinkedIn CTA"/>
+      <Section id="about-portfolio" purpose="Curated public evidence rationale: private proprietary career vs shareable IAM/CRM/security case studies"/>
+      <Section id="enterprise-crm" purpose="Primary hiring signal — collapsible: CRM/Zoho/banks-permitting; private builds; StrikeScope IAM; PDF/LuxuryCatalog/DNS-Sentinel tools; RoofRoofTexas case study with before/after assets"/>
+      <Section id="portfolio-at-a-glance" purpose="Tiered table: Tier 1 business systems/IAM/security first; Tier 2 shipped desktop assurance publications; collapsed research row"/>
+      <Section id="tech-stack" purpose="CRM/IAM-first tagline; compact badge row + Salesforce certs; full toolbox in collapsible details"/>
+      <Section id="shipped-products-assurance" purpose="Secondary collapsible deep dives: enterprise philosophy reframe; RawEngine/RawGraded/RawInvestor assurance focus; RawMarkets; collapsed TheMoun + RAW pipeline mermaid"/>
+      <Section id="legal-third-party-notice" purpose="No endorsement/partnership/employment disclaimer; portfolio not soliciting contributions"/>
+      <Section id="contact" purpose="Target roles lead; LinkedIn primary CTA; shipped products secondary"/>
     </File>
     <Folder path="assets" role="Repo images">
       <File path="assets/raw-engine-banner.png" role="Hero banner image"/>

@@ -3,10 +3,11 @@
 </p>
 
 > [!NOTE]
-> I've spent years building proprietary systems for enterprise and local/cloud AI driven workflows. This GitHub selectively showcases projects I can share publicly, each representing a core architectural pattern I've developed.
+> **This GitHub profile is a professional portfolio** — not an open-source community or maintainer program. Most of my career is in **private, proprietary** enterprise and client systems; linked repos are **reviewable case studies and assurance excerpts** for IAM, CRM, security, and implementation depth. **Low star and follower counts are expected** — hiring artifacts, not products seeking contributors.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20to%20Work-Contract%20%26%20Full--Time-2ea44f?style=for-the-badge" alt="Open to Work — Contract and Full-Time">
+  <img src="https://img.shields.io/badge/Professional-Portfolio-57606a?style=for-the-badge" alt="Professional Portfolio">
 </p>
 
 <h1 align="center">Joseph Edwards · GatoGodMode</h1>
@@ -16,7 +17,7 @@
 </p>
 
 <p align="center">
-  <strong>Open to contract and full-time roles</strong> in identity, CRM/platform engineering, and security-focused product work.
+  <strong>Open to contract and full-time roles:</strong> CRM Systems Engineer · Business Systems Engineer · Salesforce / Zoho Administrator-Developer · IAM Analyst / IAM Engineer · Security Automation Engineer · Internal Tools Engineer · Solutions / Technical Implementation Engineer · IT Systems Administrator (automation + security)
 </p>
 
 <p align="center">
@@ -27,17 +28,17 @@
   <img src="https://img.shields.io/badge/Open%20to%20Contract-1f6feb?style=for-the-badge" alt="Open to Contract">
 </p>
 
-- **IAM & security** — entity/field RBAC, MFA, audit trails, PII governance; [StrikeScope](https://github.com/GatoGodMode/StrikeScope) + bank/government-grade integration patterns
-- **CRM at scale** — production Zoho org (~100 automations), Salesforce certified (Admin + Advanced Admin), custom multi-tenant CRMs, lender/permitting API integrations
-- **Why me** — migration tooling ([DNS-Sentinel](https://github.com/GatoGodMode/DNS-Sentinel)), security hardening case studies, and full-stack delivery from schema to field PWAs
+- **IAM & access control** — entity/field RBAC, MFA, audit trails, PII field governance; [StrikeScope](https://github.com/GatoGodMode/StrikeScope) + bank/government-grade integration patterns
+- **CRM & business systems** — production Zoho org (~100 automations), Salesforce certified (Admin + Advanced Admin), multi-tenant CRMs, lender/permitting API integrations
+- **Security automation & delivery** — migration tooling ([DNS-Sentinel](https://github.com/GatoGodMode/DNS-Sentinel)), hardened client deployments, idempotent SQL migrations, internal tools
 
-### For three types of readers
+### If you're hiring for…
 
-| If you are… | Start here |
+| Role focus | Start here |
 |---|---|
-| **Security / IAM reviewer** | [StrikeScope IAM](#strikescope--iam--platform-engineering) · [RawGraded threat model](https://github.com/GatoGodMode/RawGraded#threat-model) · [RoofRoofTexas hardening](#roofrooftexas--full-rebuild-case-study) |
-| **Product / platform engineer** | [RawInvestor (Microsoft Store)](#rawinvestor--buy-hold-grade-or-sell-with-math) · [RawInvestor assurance repo](https://github.com/GatoGodMode/RawInvestor#how-the-software-works) · [RawGraded open source](https://github.com/GatoGodMode/RawGraded) |
-| **CRM / business systems** | [Zoho at scale](#crms--zoho-at-scale--banks--permitting-integrations) · [RoofRoofTexas delivery case study](#roofrooftexas--full-rebuild-case-study) · [StrikeScope pipeline](#strikescope--iam--platform-engineering) |
+| **IAM / security engineering** | [StrikeScope IAM](#strikescope--iam--platform-engineering) · [RawGraded assurance](https://github.com/GatoGodMode/RawGraded#security-posture-at-a-glance) · [RawInvestor loopback auth](https://github.com/GatoGodMode/RawInvestor#security-architecture-visual-layouts) · [RoofRoofTexas hardening](#roofrooftexas--full-rebuild-case-study) |
+| **CRM / business systems** | [Zoho at scale](#crms--zoho-at-scale--banks--permitting-integrations) · [StrikeScope pipeline](#strikescope--iam--platform-engineering) · [RoofRoofTexas case study](#roofrooftexas--full-rebuild-case-study) |
+| **Solutions / internal tools / implementation** | [DNS-Sentinel](#dns-sentinel--migration-dns-auditing) · [OrphanHunter](https://github.com/GatoGodMode/OrphanHunter) · [Portfolio at a glance](#portfolio-at-a-glance) |
 
 <p align="center">
   <a href="https://www.linkedin.com/in/josephedwardscto/"><img src="https://img.shields.io/badge/LinkedIn-josephedwardscto-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -53,40 +54,187 @@
   <a href="https://www.linkedin.com/in/josephedwardscto/"><img src="https://img.shields.io/badge/Let's%20Talk-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Let's talk on LinkedIn"></a>
 </p>
 
-## Why I am Uploading Now
+## About this portfolio
 
-> Most of my engineering career has been in private, proprietary systems. This GitHub is a curated release of the projects I can share publicly. Each one chosen because it demonstrates architecture, problem-solving, and product-level execution.
+> Most of my engineering career has been in **private, proprietary** enterprise and client systems — CRMs, IAM platforms, integrations, and security automation. This GitHub is **selective public evidence** for recruiters and security reviewers: architecture, IAM patterns, CRM delivery, and audit-grade implementation. Each linked repo is a case study I can share; the rest stays with clients.
 
 ---
 
-## What I'm Building
+## Enterprise & CRM Development
 
-One RAW pipeline, open-source tooling, and public client case studies — from IAM platforms to migration audits.
+*Click a bar to expand.*
 
-```mermaid
-flowchart LR
-    Moun["TheMoun<br/>(physical capture station)"] --> RawGraded["RawGraded Studio<br/>(AI pre-grading)"]
-    RawGraded --> Engine["RawEngine Local AI<br/>(on-device inference + grade math)"]
-    Engine --> Investor["RawInvestor<br/>(TCG market signals)"]
-    Investor --> Markets["RawMarkets<br/>(multi-asset terminal)"]
-```
+<a id="crms--zoho-at-scale--banks--permitting-integrations"></a>
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-CRMs%20%C2%B7%20Zoho%20at%20Scale%20%C2%B7%20Banks%20%26%20Permitting%20Integrations-D83B01?style=for-the-badge" alt="Expand: What I build for businesses"></picture></summary>
+
+<br>
+
+**Custom CRM & business platforms** — multi-tenant CRMs built from scratch and deep customization of platform CRMs. Role-based access control, field-level PII governance, multi-role assignment (sales agents, project managers, regional managers), customer and agent portals, document/agreement vaults, and audit trails.
+
+**Contract/consulting engagement:** configured a production Zoho org for a since-wound-down multi-state solar/roofing operator (independent engineering work — not an employee of that company or of Zoho) with roughly **100 workflows and automations** spanning project scopes, activities, and pipeline stages:
+
+- **Zoho Flow** automation suites orchestrating cross-app processes end to end
+- **Custom modules and calculators inside Zoho CRM** for advanced payout and commission math
+- **Custom portals** for customers and sales agents with multiple assignment models
+- **Automatic notifications with processing math** baked into the pipeline
+- Full-stack adoption across **Zoho CRM, Projects, Analytics, WorkDrive, and Flow**
+
+*(The org served a company that has since wound down, so the live deployment isn't publicly demonstrable — but the patterns live on in everything below.)*
+
+**Integrations, APIs & webhooks** — production webhook and API integrations with **banks/lenders** (financing flows) and **permitting jurisdictions**, plus Google Workspace sync, marketplace APIs, and document pipelines. Data migration between systems is routine work: CSV/structured imports, idempotent dated SQL migrations, dedupe-on-ingest, export/import tooling.
+
+**Security patterns aligned with regulated environments** — banking- and government-style RBAC, role-scoped visibility, server-side key handling, audit/activity trails, and duplicate-safe, charset-safe migration practices.
+
+</details>
+
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-Selected%20Private%20Builds%20%C2%B7%20two%20custom%20CRM%20platforms-57606a?style=for-the-badge" alt="Expand: Selected private builds"></picture></summary>
+
+<br>
+
+> Client systems — described conceptually unless linked below.
+
+**[StrikeScope](https://github.com/GatoGodMode/StrikeScope)** — portfolio case study: self-hosted multi-tenant CRM with **entity + field-level RBAC**, TOTP MFA, audit trail, Activepieces orchestration, and Dev Studio AI that observes schema/code structure. Full lead-to-install pipeline (commissions, financing, territory, field PWAs, customer portal). [IAM model](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md) · [Sentinel roadmap (WIP)](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ROADMAP-SENTINEL.md)
+
+**Field-operations CRM for multi-region installation crews** — four role-scoped experiences (admin console, CRM desk, foreman mobile, restricted crew shell), two-way Google Calendar sync and Drive mirroring, QR crew check-in with geofenced sites, guided photo/video proof-of-work with GPS/timestamp forensics, permit document OCR, SLA dashboards and shift analytics, bilingual EN/ES field UX. React + Express + MySQL with dated idempotent migrations.
+
+**Public case study:** see [RoofRoofTexas EXPAND](#roofrooftexas--full-rebuild-case-study) below.
+
+</details>
+
+<a id="strikescope--iam--platform-engineering"></a>
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-StrikeScope%20%C2%B7%20IAM%20%26%20platform%20engineering-6f42c1?style=for-the-badge" alt="Expand: StrikeScope"></picture></summary>
+
+<br>
+
+> Self-hosted CRM built to demonstrate enterprise IAM and a credible path toward local AI security operations.
+
+**Shipped IAM:** JWT + bcrypt + optional TOTP MFA · entity CRUD permissions per role · **field-level PII** (`ssn_last_four`, `date_of_birth`, co-signer fields) · multi-company membership · audit trail · scoped automation service keys · Helmet + rate limits.
+
+**Platform:** Express + SQLite monorepo · Admin CRM + Server Admin · Field/Installer/Monitor PWAs · Activepieces event orchestration · Dev Studio local AI (RAG over schema, migrations, ship/rollback).
+
+**WIP:** [Sentinel roadmap](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ROADMAP-SENTINEL.md) — local AI SIEM/SOAR with company-maintained playbooks (documented, not fake-shipped).
+
+**Go deeper:** [Repository](https://github.com/GatoGodMode/StrikeScope) · [SECURITY-IAM.md](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md) · [Architecture](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ARCHITECTURE.md)
+
+</details>
+
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-PDF%20Size%20Reducer%20%C2%B7%20custom%20tooling-2ea44f?style=for-the-badge" alt="Expand: PDF Size Reducer"></picture></summary>
+
+<br>
+
+> Custom tooling for people who need extreme PDF compression without touching a terminal.
+
+**Problem:** 50 MB scan PDFs blocked email and portal uploads. Existing shrinkers were CLI-only, conservative, or buried in IT tooling.
+
+**Shipped:** Tkinter desktop app with **Ultra (max shrink)** Ghostscript profile, full preset ladder, Ghostscript + PyMuPDF raster modes, **Check Sizes** preview (runs every preset before commit), and **only keep if smaller** safety. Portable **73 MB exe** bundles Ghostscript — double-click for office staff.
+
+**Go deeper:** [Repository](https://github.com/GatoGodMode/PDF-Size-Reducer) · [Portable exe](https://github.com/GatoGodMode/PDF-Size-Reducer/blob/main/dist/PDF_Size_Reducer.exe)
+
+</details>
+
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-LuxuryCatalog%20%C2%B7%20AI%20catalog%20%26%20PDF%20recovery-4285F4?style=for-the-badge" alt="Expand: LuxuryCatalog"></picture></summary>
+
+<br>
+
+> Custom tooling: turn line-art door designs into a print-ready luxury catalog — and recover when cloud source data is gone.
+
+**Problem:** An unnamed manufacturer client needed photorealistic catalog renders from B&W line art at SKU scale. Cloud assets were later deleted; only the finished PDF survived.
+
+**Shipped:** React + Vite app with **Gemini Nano Banana** (`gemini-2.5-flash-image` / `gemini-3.1-flash-image-preview`) queue processing, teal glass unification, jsPDF catalog export (covers, spreads, index), **PDF operator-list reverse engineering** to rebuild the IndexedDB queue from output PDF alone, WooCommerce ZIP export, and WP Media Mapper Chrome extension.
+
+**Go deeper:** [Repository](https://github.com/GatoGodMode/LuxuryCatalog) · [Showcase renders](https://github.com/GatoGodMode/LuxuryCatalog/tree/main/assets/showcase)
+
+</details>
+
+<a id="dns-sentinel--migration-dns-auditing"></a>
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-DNS--Sentinel%20%C2%B7%20migration%20DNS%20auditing-0ea5e9?style=for-the-badge" alt="Expand: DNS-Sentinel"></picture></summary>
+
+<br>
+
+> Built during a ~1 TB GoDaddy M365 → Google Workspace cutover when registrar and vendor support couldn't agree on DNS state.
+
+**Problem:** Mid-migration email failures with blame shifting across GoDaddy, Microsoft, and Namecheap — no single view of MX, SPF, DMARC, SMTP reachability, or site stack exposure.
+
+**Shipped:** Full-stack audit tool — domain score (SSL, headers, path exposure), email provider heuristics (Google/M365/GoDaddy legacy), SMTP + MX banner tests, WordPress vs **Vite dist** detection with optional deep scan, SQLite audit history, and **server-proxied Gemini** fix guides and migration chat.
+
+**Go deeper:** [Repository](https://github.com/GatoGodMode/DNS-Sentinel)
+
+</details>
+
+<a id="roofrooftexas--full-rebuild-case-study"></a>
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RoofRoofTexas%20%C2%B7%20full%20rebuild%20case%20study-c8102e?style=for-the-badge" alt="Expand: RoofRoofTexas"></picture></summary>
+
+<br>
+
+> Public case study: full redesign, re-architecture, security hardening, and local SEO for a Houston roofing company — built lean on purpose.
+
+**Problem:** Thin one-pager — no project gallery, mobile nav hidden below 768px, client-side-only form validation, SEO artifacts referenced but never deployed.
+
+**Shipped:**
+
+- **Design system** — brand-aligned navy/red palette, SVG icon sprite, consistent card and section language
+- **Real proof content** — project gallery with responsive photography and aerial drone flyovers
+- **Live service-area map** — interactive coverage across **14 Greater Houston cities**, lazy-loaded with integrity-pinned CDN
+- **Media pipeline** — multi-MB source photos and 4K drone video compressed to **sub-2 MB** WebP/MP4 deliverables
+- **Conversion form** — CSRF, honeypot, minimum-delay check, per-IP rate limiting, origin/referer whitelisting, server-side sanitization (no third-party CAPTCHA)
+- **Server hardening** — CSP, HSTS (1 year), `X-Frame-Options`, `nosniff`, referrer/permissions policies; PHP execution blocked under `/assets`
+- **SEO infrastructure** — full JSON-LD `@graph` (RoofingContractor, FAQPage, VideoObject, ItemList), sitemap, robots, `llms.txt`, geo meta, Open Graph + Twitter Cards
+- **Accessibility** — skip links, ARIA landmarks, keyboard-operable accordion, reduced-motion and save-data video gating, WCAG 2.2.2 media pause control
+
+**Before / After**
+
+| Before | After |
+|:---:|:---:|
+| <img src="assets/roofrooftexas/before.png" alt="Original site: thin one-pager with placeholder visuals, no project gallery, no live map" width="100%"> | <img src="assets/roofrooftexas/after.png" alt="Rebuilt site: real project gallery, live service-area map, optimized media, conversion-focused estimate flow" width="100%"> |
+
+**Go deeper:** [Case study repo](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild) · [Live site](https://roofrooftexas.com)
+
+</details>
+
+---
+
+<a id="portfolio-at-a-glance"></a>
+## Portfolio at a glance
+
+Business systems, IAM, and security work first — then shipped desktop products used as assurance publications.
+
+**Tier 1 — Business systems, IAM, security**
 
 | Project | One-liner | Status |
 |---|---|---|
-| **RawEngine Local AI** | On-device vision AI catalogs defects; deterministic math assigns grades — no cloud required | Shipping |
-| **[RawGraded Studio](https://rawgraded.com)** · [source](https://github.com/GatoGodMode/RawGraded) | Know if a card is worth grading *before* you pay grading fees — public assurance repo (Electron, PHP vault API, threat model) | [Shipping · open source](https://github.com/GatoGodMode/RawGraded) |
-| **[RawInvestor](https://github.com/GatoGodMode/RawInvestor)** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts (loopback API, public assurance repo) | [Shipping · Microsoft Store](https://apps.microsoft.com/detail/9PGX48NMDWQT) · [open source](https://github.com/GatoGodMode/RawInvestor) |
-| **RawMarkets** | Local-first markets terminal for metals, energy, equities with an AI copilot | In progress |
-| **[TheMoun](https://themoun.com)** | Integrated physical capture workstation — EPIC line (Eco → Pro → Investor → Curator) | Hardware program |
-| **[CollectorBuyerPsych](https://github.com/GatoGodMode/CollectorBuyerPsych)** | Cited neuro-economic research — TCG, crypto, NFT, and gacha market psychology | Published research |
-| **[OrphanHunter](https://github.com/GatoGodMode/OrphanHunter)** | Crawl web apps — map variables, SQL tables, and references; find orphans and migration issues | Open source · v1.3 |
-| **[StrikeScope](https://github.com/GatoGodMode/StrikeScope)** | Self-hosted CRM + IAM — entity/field RBAC, MFA, audit, AI Dev Studio, automation orchestration | Open source · WIP sentinel |
-| **[PDF Size Reducer](https://github.com/GatoGodMode/PDF-Size-Reducer)** | Desktop PDF shrinker — 50 MB → ~2 MB; Ultra preset, size preview, portable exe for non-technical users | Open source · custom tooling |
-| **[LuxuryCatalog](https://github.com/GatoGodMode/LuxuryCatalog)** | B&W line art → photorealistic door catalog via Gemini Nano Banana; PDF export + disaster-recovery reverse engineering | Open source · custom tooling |
-| **[DNS-Sentinel](https://github.com/GatoGodMode/DNS-Sentinel)** | Domain/email DNS auditing for M365 → Google Workspace migrations; MX/SPF/DMARC, WP/Vite exposure, AI assistant | Open source · custom tooling |
-| **[RoofRoofTexas.com rebuild](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild)** | Houston roofing site — design system, media pipeline, CSP/HSTS, JSON-LD local SEO, hardened estimate form | [Live site](https://roofrooftexas.com) · [case study](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild) |
+| **[StrikeScope](https://github.com/GatoGodMode/StrikeScope)** | Self-hosted CRM + IAM — entity/field RBAC, MFA, audit, automation orchestration | Portfolio case study |
+| **[RoofRoofTexas rebuild](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild)** | Client site — CSP/HSTS, hardened forms, SEO infrastructure | [Live](https://roofrooftexas.com) · case study |
+| **[DNS-Sentinel](https://github.com/GatoGodMode/DNS-Sentinel)** | M365 → Google Workspace DNS/migration auditing | Portfolio tool |
+| **[OrphanHunter](https://github.com/GatoGodMode/OrphanHunter)** | Web app crawl — SQL/table/reference audit for migrations | Portfolio tool · v1.3 |
+| **[PDF Size Reducer](https://github.com/GatoGodMode/PDF-Size-Reducer)** | Desktop PDF shrinker — Ultra preset, size preview, portable exe | Portfolio tool |
+| **[LuxuryCatalog](https://github.com/GatoGodMode/LuxuryCatalog)** | AI catalog pipeline with PDF disaster-recovery reverse engineering | Portfolio tool |
+| **Zoho production org** | ~100 workflows/automations, Flow, custom modules — see [Enterprise section](#crms--zoho-at-scale--banks--permitting-integrations) | Private client work |
 
-Full architecture breakdowns are in the collapsible sections below.
+**Tier 2 — Shipped desktop apps & assurance publications**
+
+| Project | One-liner | Status |
+|---|---|---|
+| **[RawGraded](https://github.com/GatoGodMode/RawGraded)** | Desktop + vault API — **assurance publication** (SPII strip, threat model) | Shipping · reviewable source |
+| **[RawInvestor](https://github.com/GatoGodMode/RawInvestor)** | Local-first desktop — **loopback API, token auth**, Microsoft Store | Shipping · assurance repo |
+| **RawMarkets / RawEngine / [TheMoun](https://themoun.com)** | Internal R&D and hardware program | In progress · secondary |
+
+<details>
+<summary>Published research (non-hiring primary)</summary>
+
+| Project | One-liner | Status |
+|---|---|---|
+| **[CollectorBuyerPsych](https://github.com/GatoGodMode/CollectorBuyerPsych)** | Cited neuro-economic research on collectibles and digital asset markets | Published research |
+
+</details>
+
+Collapsible deep dives below.
 
 ---
 
@@ -109,7 +257,7 @@ Full architecture breakdowns are in the collapsible sections below.
 ![Salesforce Administrator](https://img.shields.io/badge/Salesforce-Certified%20Administrator-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
 ![Salesforce Advanced Administrator](https://img.shields.io/badge/Salesforce-Certified%20Advanced%20Administrator-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
 
-Local-first by default. Plugin-style architectures. Deterministic math where it matters, AI where it helps.
+**CRM platforms, IAM patterns, and integration automation first.** TypeScript/Node for internal tools; Zoho Flow/Deluge and Salesforce for business systems; audit-grade migrations and server-side secret handling throughout.
 
 <details>
 <summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-Full%20Toolbox%20%C2%B7%20every%20platform%20I%20use%20regularly-1f6feb?style=for-the-badge" alt="Expand: Full Toolbox"></picture></summary>
@@ -193,146 +341,9 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 ---
 
-## Enterprise & CRM Development
+## Shipped products — assurance deep dives
 
-*Click a bar to expand.*
-
-<a id="crms--zoho-at-scale--banks--permitting-integrations"></a>
-<details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-CRMs%20%C2%B7%20Zoho%20at%20Scale%20%C2%B7%20Banks%20%26%20Permitting%20Integrations-D83B01?style=for-the-badge" alt="Expand: What I build for businesses"></picture></summary>
-
-<br>
-
-**Custom CRM & business platforms** — multi-tenant CRMs built from scratch and deep customization of platform CRMs. Role-based access control, field-level PII governance, multi-role assignment (sales agents, project managers, regional managers), customer and agent portals, document/agreement vaults, and audit trails.
-
-**Contract/consulting engagement:** configured a production Zoho org for a since-wound-down multi-state solar/roofing operator (independent engineering work — not an employee of that company or of Zoho) with roughly **100 workflows and automations** spanning project scopes, activities, and pipeline stages:
-
-- **Zoho Flow** automation suites orchestrating cross-app processes end to end
-- **Custom modules and calculators inside Zoho CRM** for advanced payout and commission math
-- **Custom portals** for customers and sales agents with multiple assignment models
-- **Automatic notifications with processing math** baked into the pipeline
-- Full-stack adoption across **Zoho CRM, Projects, Analytics, WorkDrive, and Flow**
-
-*(The org served a company that has since wound down, so the live deployment isn't publicly demonstrable — but the patterns live on in everything below.)*
-
-**Integrations, APIs & webhooks** — production webhook and API integrations with **banks/lenders** (financing flows) and **permitting jurisdictions**, plus Google Workspace sync, marketplace APIs, and document pipelines. Data migration between systems is routine work: CSV/structured imports, idempotent dated SQL migrations, dedupe-on-ingest, export/import tooling.
-
-**Security patterns aligned with regulated environments** — banking- and government-style RBAC, role-scoped visibility, server-side key handling, audit/activity trails, and duplicate-safe, charset-safe migration practices.
-
-</details>
-
-<details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-Selected%20Private%20Builds%20%C2%B7%20two%20custom%20CRM%20platforms-57606a?style=for-the-badge" alt="Expand: Selected private builds"></picture></summary>
-
-<br>
-
-> Client systems — described conceptually unless linked below.
-
-**[StrikeScope](https://github.com/GatoGodMode/StrikeScope)** — public repo: self-hosted multi-tenant CRM with **entity + field-level RBAC**, TOTP MFA, audit trail, Activepieces orchestration, and Dev Studio AI that observes schema/code structure. Full lead-to-install pipeline (commissions, financing, territory, field PWAs, customer portal). [IAM model](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md) · [Sentinel roadmap (WIP)](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ROADMAP-SENTINEL.md)
-
-**Field-operations CRM for multi-region installation crews** — four role-scoped experiences (admin console, CRM desk, foreman mobile, restricted crew shell), two-way Google Calendar sync and Drive mirroring, QR crew check-in with geofenced sites, guided photo/video proof-of-work with GPS/timestamp forensics, permit document OCR, SLA dashboards and shift analytics, bilingual EN/ES field UX. React + Express + MySQL with dated idempotent migrations.
-
-**Public case study:** see [RoofRoofTexas EXPAND](#roofrooftexas--full-rebuild-case-study) below.
-
-</details>
-
-<a id="strikescope--iam--platform-engineering"></a>
-<details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-StrikeScope%20%C2%B7%20IAM%20%26%20platform%20engineering-6f42c1?style=for-the-badge" alt="Expand: StrikeScope"></picture></summary>
-
-<br>
-
-> Self-hosted CRM built to demonstrate enterprise IAM and a credible path toward local AI security operations.
-
-**Shipped IAM:** JWT + bcrypt + optional TOTP MFA · entity CRUD permissions per role · **field-level PII** (`ssn_last_four`, `date_of_birth`, co-signer fields) · multi-company membership · audit trail · scoped automation service keys · Helmet + rate limits.
-
-**Platform:** Express + SQLite monorepo · Admin CRM + Server Admin · Field/Installer/Monitor PWAs · Activepieces event orchestration · Dev Studio local AI (RAG over schema, migrations, ship/rollback).
-
-**WIP:** [Sentinel roadmap](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ROADMAP-SENTINEL.md) — local AI SIEM/SOAR with company-maintained playbooks (documented, not fake-shipped).
-
-**Go deeper:** [Repository](https://github.com/GatoGodMode/StrikeScope) · [SECURITY-IAM.md](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md) · [Architecture](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ARCHITECTURE.md)
-
-</details>
-
-<details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-PDF%20Size%20Reducer%20%C2%B7%20custom%20tooling-2ea44f?style=for-the-badge" alt="Expand: PDF Size Reducer"></picture></summary>
-
-<br>
-
-> Custom tooling for people who need extreme PDF compression without touching a terminal.
-
-**Problem:** 50 MB scan PDFs blocked email and portal uploads. Existing shrinkers were CLI-only, conservative, or buried in IT tooling.
-
-**Shipped:** Tkinter desktop app with **Ultra (max shrink)** Ghostscript profile, full preset ladder, Ghostscript + PyMuPDF raster modes, **Check Sizes** preview (runs every preset before commit), and **only keep if smaller** safety. Portable **73 MB exe** bundles Ghostscript — double-click for office staff.
-
-**Go deeper:** [Repository](https://github.com/GatoGodMode/PDF-Size-Reducer) · [Portable exe](https://github.com/GatoGodMode/PDF-Size-Reducer/blob/main/dist/PDF_Size_Reducer.exe)
-
-</details>
-
-<details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-LuxuryCatalog%20%C2%B7%20AI%20catalog%20%26%20PDF%20recovery-4285F4?style=for-the-badge" alt="Expand: LuxuryCatalog"></picture></summary>
-
-<br>
-
-> Custom tooling: turn line-art door designs into a print-ready luxury catalog — and recover when cloud source data is gone.
-
-**Problem:** An unnamed manufacturer client needed photorealistic catalog renders from B&W line art at SKU scale. Cloud assets were later deleted; only the finished PDF survived.
-
-**Shipped:** React + Vite app with **Gemini Nano Banana** (`gemini-2.5-flash-image` / `gemini-3.1-flash-image-preview`) queue processing, teal glass unification, jsPDF catalog export (covers, spreads, index), **PDF operator-list reverse engineering** to rebuild the IndexedDB queue from output PDF alone, WooCommerce ZIP export, and WP Media Mapper Chrome extension.
-
-**Go deeper:** [Repository](https://github.com/GatoGodMode/LuxuryCatalog) · [Showcase renders](https://github.com/GatoGodMode/LuxuryCatalog/tree/main/assets/showcase)
-
-</details>
-
-<details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-DNS--Sentinel%20%C2%B7%20migration%20DNS%20auditing-0ea5e9?style=for-the-badge" alt="Expand: DNS-Sentinel"></picture></summary>
-
-<br>
-
-> Built during a ~1 TB GoDaddy M365 → Google Workspace cutover when registrar and vendor support couldn't agree on DNS state.
-
-**Problem:** Mid-migration email failures with blame shifting across GoDaddy, Microsoft, and Namecheap — no single view of MX, SPF, DMARC, SMTP reachability, or site stack exposure.
-
-**Shipped:** Full-stack audit tool — domain score (SSL, headers, path exposure), email provider heuristics (Google/M365/GoDaddy legacy), SMTP + MX banner tests, WordPress vs **Vite dist** detection with optional deep scan, SQLite audit history, and **server-proxied Gemini** fix guides and migration chat.
-
-**Go deeper:** [Repository](https://github.com/GatoGodMode/DNS-Sentinel)
-
-</details>
-
-<a id="roofrooftexas--full-rebuild-case-study"></a>
-<details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RoofRoofTexas%20%C2%B7%20full%20rebuild%20case%20study-c8102e?style=for-the-badge" alt="Expand: RoofRoofTexas"></picture></summary>
-
-<br>
-
-> Public case study: full redesign, re-architecture, security hardening, and local SEO for a Houston roofing company — built lean on purpose.
-
-**Problem:** Thin one-pager — no project gallery, mobile nav hidden below 768px, client-side-only form validation, SEO artifacts referenced but never deployed.
-
-**Shipped:**
-
-- **Design system** — brand-aligned navy/red palette, SVG icon sprite, consistent card and section language
-- **Real proof content** — project gallery with responsive photography and aerial drone flyovers
-- **Live service-area map** — interactive coverage across **14 Greater Houston cities**, lazy-loaded with integrity-pinned CDN
-- **Media pipeline** — multi-MB source photos and 4K drone video compressed to **sub-2 MB** WebP/MP4 deliverables
-- **Conversion form** — CSRF, honeypot, minimum-delay check, per-IP rate limiting, origin/referer whitelisting, server-side sanitization (no third-party CAPTCHA)
-- **Server hardening** — CSP, HSTS (1 year), `X-Frame-Options`, `nosniff`, referrer/permissions policies; PHP execution blocked under `/assets`
-- **SEO infrastructure** — full JSON-LD `@graph` (RoofingContractor, FAQPage, VideoObject, ItemList), sitemap, robots, `llms.txt`, geo meta, Open Graph + Twitter Cards
-- **Accessibility** — skip links, ARIA landmarks, keyboard-operable accordion, reduced-motion and save-data video gating, WCAG 2.2.2 media pause control
-
-**Before / After**
-
-| Before | After |
-|:---:|:---:|
-| <img src="assets/roofrooftexas/before.png" alt="Original site: thin one-pager with placeholder visuals, no project gallery, no live map" width="100%"> | <img src="assets/roofrooftexas/after.png" alt="Rebuilt site: real project gallery, live service-area map, optimized media, conversion-focused estimate flow" width="100%"> |
-
-**Go deeper:** [Case study repo](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild) · [Live site](https://roofrooftexas.com)
-
-</details>
-
----
-
-## The Raw Ecosystem — Deep Dives
+*Secondary section: shipped desktop products used as **security and architecture case studies**. Domain-specific UI; the hiring signal is IAM patterns, loopback APIs, audit discipline, and release integrity.*
 
 *Click a bar to expand.*
 
@@ -341,93 +352,78 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 <br>
 
-Most collector and investor workflows look like this: a dozen marketplace tabs, unverified "last sold" prices skewed by scalper noise, browser-tracked history, and decision fatigue — *buy or hold?* — answered by gut feeling.
+Most enterprise data workflows still look like this: siloed tabs and exports, unverified third-party feeds, browser-tracked history, and decisions made without a unified audit trail.
 
 Everything I build inverts that:
 
-| | Traditional Norm | The Raw Approach |
+| | Traditional Norm | Local-controlled approach |
 |---|---|---|
-| **Data Sourcing** | Manual, multi-tab search across isolated sites | Unified, automated multi-source capture |
+| **Data sourcing** | Manual, multi-tab search across isolated systems | Unified, automated multi-source capture |
 | **Analysis** | Descriptive ("what happened") | Prescriptive — actionable decision signals |
-| **Privacy** | Cloud-dependent, browser-tracked | 100% local processing, local APIs, your data stays on your machine |
+| **Privacy & control** | Cloud-dependent, vendor-tracked | Local processing, loopback APIs, data stays on-device |
 
 </details>
 
 <details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawEngine%20Local%20AI%20%C2%B7%20the%20on--device%20AI%20core-000000?style=for-the-badge" alt="Expand: RawEngine Local AI"></picture></summary>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawEngine%20Local%20AI%20%C2%B7%20on--device%20inference%20%2B%20deterministic%20math-000000?style=for-the-badge" alt="Expand: RawEngine Local AI"></picture></summary>
 
 <br>
 
-**Problem:** AI grading and analysis tools typically mean uploading your collection to someone else's cloud — and trusting a black box that hallucinates grade numbers.
+> **Local-first AI core** — loopback inference, evidence cataloging, deterministic math layer. No cloud upload required for the default path.
 
 **How it works:** RawEngine deliberately separates *perception* from *judgment*:
 
-1. **Vision stage (local LLM inference)** — a locally-run vision model performs phased evidence passes: OCR and card text extraction, identity resolution against TCG databases, qualitative centering notes, and defect cataloging across front, back, and video frames. It catalogs evidence; it never assigns grades.
-2. **Deterministic math stage** — a rules-based engine computes every numeric subgrade and PSA/BGS/CGC prediction from the cataloged defects, risk factors, and *measured* centering. Grade snapping, floors/ceilings, and cross-company consistency are enforced in code, not guessed by a model.
+1. **Vision stage (local LLM inference)** — phased evidence passes: OCR/text extraction, identity resolution, qualitative notes, and defect cataloging across image and video frames. It catalogs evidence; it never assigns final scores in the model layer.
+2. **Deterministic math stage** — a rules-based engine computes numeric outputs from cataloged defects, risk factors, and measured geometry. Floors, ceilings, and cross-run consistency are enforced in code, not guessed by a model.
 
-**Architecture:** local inference runtime on loopback, with an optional bring-your-own-key cloud fallback for higher-accuracy passes. With local mode, **no card image ever leaves your PC**. Standard and Deep analysis modes trade speed for forensic depth. Output is treated as a research estimate — honest about being a tool, not an oracle.
+**Architecture:** local inference runtime on loopback, with optional bring-your-own-key cloud fallback. With local mode, **sensitive imagery never leaves the machine**. Standard and Deep analysis modes trade speed for forensic depth. Output is treated as a research estimate — auditable, not a black box.
 
 </details>
 
 <details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawGraded%20Studio%20%C2%B7%20grade%20smart%20before%20you%20pay%20fees-1f6feb?style=for-the-badge" alt="Expand: RawGraded Studio"></picture></summary>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawGraded%20Studio%20%C2%B7%20local--first%20desktop%20%2B%20vault%20API-1f6feb?style=for-the-badge" alt="Expand: RawGraded Studio"></picture></summary>
 
 <br>
 
-**Problem:** Submitting a card to PSA/BGS/CGC costs real money per card with weeks of turnaround. Most collectors submit on hope and get burned by surface or centering issues they didn't catch.
+> **Assurance publication** — local-first desktop, PHP vault API, SPII strip on public verify, documented threat model.
 
-**How it works:** A guided desktop pre-grading workflow:
+**Architecture:** Windows desktop app (web-tech UI in a native shell) with companion mobile capture, local database for portfolio/provenance, and pluggable AI providers (local-first, optional BYOK cloud). Optional hosted vault at rawgraded.com — desktop workflow requires no account.
 
-**capture → crop → PSA-style centering measurement → optional 5-stage guided video forensics (tilted light, macro, back scan) → RawEngine evidence passes → deterministic grade math → certificate export → local portfolio**
+**Assurance publication:** [GatoGodMode/RawGraded](https://github.com/GatoGodMode/RawGraded) — reviewable excerpt (Electron desktop, PHP vault API, landing). Secrets load from runtime settings at deploy time; operator config and schema migration stay out of band. Release integrity gate: `node scripts/publish-preflight.cjs`.
 
-**Architecture:** Windows desktop app (web-tech UI in a native shell) with a companion mobile capture app, a local database for portfolio/provenance, and pluggable AI providers (local-first, optional BYOK cloud). An optional hosted vault and public archive exist at rawgraded.com — but desktop grading requires no account at all.
-
-**Public source:** [GatoGodMode/RawGraded](https://github.com/GatoGodMode/RawGraded) — security-assured reference publication (Electron desktop, PHP vault API, landing). Secrets load from runtime settings at deploy time; operator config and schema migration stay out of band. Release integrity gate: `node scripts/publish-preflight.cjs`.
-
-**Highlights:** live sharpness and border-detection guidance, slab authenticity checking, fake-slab identification guide, printable certificates and social exports, per-card market refresh.
+**Security highlights:** server-side SPII strip on public cert verify; **GO PRIVATE** archive control; deterministic grade math with auditable `mathTrace` — not black-box LLM output — [vault records & SPII controls →](https://github.com/GatoGodMode/RawGraded#vault-records-provenance-capture-and-indemnity-documentation)
 
 **Built for production**
 
 | Scale | Security | Polish |
 |:---:|:---:|:---:|
 | <img src="assets/rawgraded/ledger-pdf-progress.png" alt="PDF export over 296 assets" width="280"> | <img src="assets/rawgraded/vault-privacy-mode.png" alt="Vault privacy mode" width="280"> | <img src="assets/rawgraded/3d-card-rotate.gif" alt="Three.js holo card viewer" width="280"> |
-| Chunked insurance ledger PDF with progress over **250+ assets** | Server-side SPII strip on public cert verify; **GO PRIVATE** archive control | Three.js card viewer with holo pattern inference |
+| Chunked insurance ledger PDF with progress over **250+ assets** | Server-side SPII strip on public cert verify; **GO PRIVATE** archive control | Three.js viewer with pattern inference |
 
 - Portfolio-grade PDF export with sectioned rendering and live progress UI
-- Full vault provenance capture, envelope OCR, and insurance ledger — [vault records & SPII controls →](https://github.com/GatoGodMode/RawGraded#vault-records-provenance-capture-and-indemnity-documentation)
-- Deterministic grade math with auditable `mathTrace` — not black-box LLM output
+- Full vault provenance capture, envelope OCR, and insurance ledger
 - [Platform showcase (screenshots) →](https://github.com/GatoGodMode/RawGraded#platform-showcase)
 
 </details>
 
 <a id="rawinvestor--buy-hold-grade-or-sell-with-math"></a>
 <details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawInvestor%20%C2%B7%20buy%2C%20hold%2C%20grade%2C%20or%20sell%20with%20math-8957e5?style=for-the-badge" alt="Expand: RawInvestor"></picture></summary>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-RawInvestor%20%C2%B7%20loopback%20API%20%2B%20Microsoft%20Store%20delivery-8957e5?style=for-the-badge" alt="Expand: RawInvestor"></picture></summary>
 
 <br>
 
-**Problem:** Deciding what to do with a raw card means juggling PriceCharting, TCGplayer, and eBay sold listings by hand, with no unified view, no grading expected-value math, and pricing distorted by scalper noise.
+> **Assurance publication** — loopback-only Express API, token auth, local SQLite authority, MV3 extension posting only to localhost.
 
-**How it works:** One workspace blends sold listings and market prices from all three major sources into per-card decision signals:
-
-- **Market Bias** — synthesized Buy / Hold / Sell guidance from buyer-side and seller-side analytics
-- **Trend** — regression slope, z-score vs. historical mean, day-over-day moves across **1 / 7 / 30 / 90-day windows**
-- **Sales Strategy** — SELL/HOLD signals with fair, strategic, and pushed price targets per channel
-- **Grading EV** — expected value across PSA 10 / 9 / fail branches (population-data-tuned probabilities), vs. a raw-flip projection with break-even pricing
-- **90-day ROI forecast** — realistic / best / worst cases with trend clamping to avoid wild extrapolation on thin data
-
-**Architecture:** desktop app with an embedded browser workspace, a **loopback-only local API**, and a local database as the authoritative portfolio store. An optional browser extension captures live marketplace context from your real sessions and posts it only to your own machine. No vendor cloud sync, no account, no tracking.
+**Architecture:** desktop app with embedded browser workspace, **loopback-only local API**, and local database as the authoritative store. Optional browser extension captures live marketplace context from user sessions and posts it only to the local machine. No vendor cloud sync, no account, no tracking.
 
 **Shipped on Microsoft Store**
 
-| Distribution | Product UI | Signals |
+| Distribution | Product UI | Security posture |
 |:---:|:---:|:---:|
-| <img src="assets/rawinvestor/microsoft-store-listing.png" alt="RawInvestor on Microsoft Store — market signals dashboard" width="280"> | <img src="assets/rawinvestor/quick-card-dashboard.png" alt="Quick Card dashboard — Market Bias, Trend, Grade Edge" width="280"> | Multi-source blend · grading EV · 90-day ROI forecast |
-| First RAW ENGINE Microsoft Store listing · **Uses AI features** badge | Nebula 3D portfolio classification · deal-hunting Arsenal targets | Loopback-only API · no cloud sync · no account |
+| <img src="assets/rawinvestor/microsoft-store-listing.png" alt="RawInvestor on Microsoft Store — market signals dashboard" width="280"> | <img src="assets/rawinvestor/quick-card-dashboard.png" alt="Quick Card dashboard — Market Bias, Trend, Grade Edge" width="280"> | Loopback-only API · token auth · no cloud sync |
+| First RAW ENGINE Microsoft Store listing · **Uses AI features** badge | Local portfolio analytics and decision signals | Reviewable assurance repo with preflight gate |
 
-**Highlights:** Nebula 3D portfolio classification (Buy / Sell / Hold / Sleeper / Climber / Dud / NGMI), deal-hunting "Arsenal" targets, sealed product EV, themed share graphics, streamer mode.
-
-**Public source:** [GatoGodMode/RawInvestor](https://github.com/GatoGodMode/RawInvestor) — security-assured reference publication (Electron, loopback Express API, MV3 extension). Release integrity gate: `node scripts/publish-preflight.cjs`.
+**Assurance publication:** [GatoGodMode/RawInvestor](https://github.com/GatoGodMode/RawInvestor) — reviewable excerpt (Electron, loopback Express API, MV3 extension). Release integrity gate: `node scripts/publish-preflight.cjs`.
 
 **Go deeper:** [Security architecture](https://github.com/GatoGodMode/RawInvestor#security-architecture-visual-layouts) · [Security posture](https://github.com/GatoGodMode/RawInvestor#security-posture-at-a-glance) · [How it works](https://github.com/GatoGodMode/RawInvestor#how-the-software-works) · [Microsoft Store listing](https://apps.microsoft.com/detail/9PGX48NMDWQT)
 
@@ -452,21 +448,26 @@ Everything I build inverts that:
 </details>
 
 <details>
-<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-TheMoun%20%C2%B7%20the%20physical%20capture%20workstation-2ea44f?style=for-the-badge" alt="Expand: TheMoun"></picture></summary>
+<summary>Hardware R&D · TheMoun (secondary)</summary>
 
 <br>
 
-> An integrated capture workstation for cards, coins, and slabs. The bench is where margin leaks.
+Integrated physical capture workstation — hardware R&D program, not a primary hiring signal. [themoun.com](https://themoun.com) · [Whitepaper](docs/TheMoun-Whitepaper.md) · [Market Research](docs/TheMoun-Market-Research.md) · [Schematics](docs/TheMoun-Schematics.md)
 
-**Problem:** Sellers and graders assemble capture setups from unrelated SKUs — light tents, ring lights, tripods, centering templates — producing glare, inconsistent framing, and poor signal for downstream AI grading, image search, and marketplace comps.
+</details>
 
-**How it works:** One purpose-built imaging bench: a specimen deck, controlled task lighting, and repeatable phone-capture geometry, designed as a single system instead of a pile of accessories. Clean, consistent imagery feeds directly into the RawEngine AI layer.
+<details>
+<summary>RAW product pipeline (continuity reference)</summary>
 
-**Product line (EPIC):** **E**co → **P**ro → **I**nvestor → **C**urator — from a mechanical-first static bench up to a sensor-driven, motion-controlled production station, with a future bulk-throughput line.
+<br>
 
-**Design highlights:** unified TCG + coin reference geometry via removable translucent guides, flippable mark-free deck inserts for clean AI/listing imagery, medical-grade silicone edge protection, and modular serviceability — replaceable wear parts instead of glued monoliths.
-
-**Go deeper:** [Product Whitepaper](docs/TheMoun-Whitepaper.md) · [Market Research](docs/TheMoun-Market-Research.md) · [Model Schematics](docs/TheMoun-Schematics.md)
+```mermaid
+flowchart LR
+    Moun["TheMoun<br/>(physical capture station)"] --> RawGraded["RawGraded Studio<br/>(local desktop + vault)"]
+    RawGraded --> Engine["RawEngine Local AI<br/>(on-device inference + math)"]
+    Engine --> Investor["RawInvestor<br/>(loopback API)"]
+    Investor --> Markets["RawMarkets<br/>(multi-asset terminal)"]
+```
 
 </details>
 
@@ -474,13 +475,14 @@ Everything I build inverts that:
 
 ## Legal & third-party notice
 
-Third-party names, logos, and certifications (Zoho, Salesforce, Microsoft, Google, PSA, Pokémon, etc.) are used descriptively only. **No endorsement, partnership, employment, or agency relationship is implied.** Past client work describes independent engineering engagements unless explicitly labeled as a public case study repository.
+Third-party names, logos, and certifications (Zoho, Salesforce, Microsoft, Google, PSA, Pokémon, etc.) are used descriptively only. **No endorsement, partnership, employment, or agency relationship is implied.** Past client work describes independent engineering engagements unless explicitly labeled as a public case study repository. **Linked repositories are portfolio and assurance publications for review, not open-source projects soliciting contributions.**
 
 ---
 
 ## Contact
 
-- **Availability:** Open to IAM, CRM, and security-focused engineering — contract or full-time · [LinkedIn](https://www.linkedin.com/in/josephedwardscto/)
+- **Target roles:** CRM Systems Engineer · Business Systems Engineer · Salesforce / Zoho Administrator-Developer · IAM Analyst / IAM Engineer · Security Automation Engineer · Internal Tools Engineer · Solutions / Technical Implementation Engineer · IT Systems Administrator (automation + security)
+- **Availability:** Contract or full-time · [LinkedIn](https://www.linkedin.com/in/josephedwardscto/) *(primary contact)*
 - **LinkedIn:** [linkedin.com/in/josephedwardscto](https://www.linkedin.com/in/josephedwardscto/)
 - **X:** [@GatoGodMode](https://x.com/GatoGodMode)
-- **Web:** [rawgraded.com](https://rawgraded.com) · [themoun.com](https://themoun.com)
+- **Shipped products:** [rawgraded.com](https://rawgraded.com) · [Microsoft Store — RawInvestor](https://apps.microsoft.com/detail/9PGX48NMDWQT) · [themoun.com](https://themoun.com)

@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VarMap project="GatoGodMode-Profile" updated="2026-06-13">
+<VarMap project="GatoGodMode-Profile" updated="2026-06-10">
   <!-- Static content repo: no runtime variables. Entries below are README link/identity constants. -->
-  <Var name="OPEN_TO_WORK" value="Contract and full-time — IAM, CRM, security-focused engineering" usedIn="README.md#hero,README.md#contact" purpose="Hiring availability signal"/>
+  <Var name="PORTFOLIO_FRAMING" value="Professional portfolio — not OSS program; linked repos are reviewable case studies and assurance excerpts" usedIn="README.md#portfolio-notice,README.md#about-portfolio,README.md#legal-third-party-notice" purpose="Hiring portfolio narrative constant"/>
+  <Var name="OPEN_TO_WORK" value="Contract and full-time — CRM Systems Engineer, IAM Engineer, Security Automation Engineer, Salesforce/Zoho Admin-Dev, Internal Tools, Solutions Implementation" usedIn="README.md#hero,README.md#contact" purpose="Hiring availability and target role families"/>
   <Var name="GITHUB_USERNAME" value="GatoGodMode" usedIn="README.md" purpose="Repo name and profile identity"/>
-  <Var name="LINKEDIN_URL" value="https://www.linkedin.com/in/josephedwardscto/" usedIn="README.md#intro,README.md#contact" purpose="Profile link"/>
+  <Var name="LINKEDIN_URL" value="https://www.linkedin.com/in/josephedwardscto/" usedIn="README.md#intro,README.md#contact" purpose="Profile link — primary recruiter CTA"/>
   <Var name="X_URL" value="https://x.com/GatoGodMode" usedIn="README.md#intro,README.md#contact" purpose="Profile link"/>
-  <Var name="RAWGRADED_REPO" value="https://github.com/GatoGodMode/RawGraded" usedIn="README.md#whats-building,README.md#rawgraded" purpose="Public assurance RawGraded repository"/>
-  <Var name="RAWGRADED_URL" value="https://rawgraded.com" usedIn="README.md#intro,README.md#rawgraded,README.md#contact" purpose="Product site"/>
-  <Var name="THEMOUN_URL" value="https://themoun.com" usedIn="README.md#intro,README.md#themoun,README.md#contact,docs/TheMoun-*.md" purpose="Product site"/>
-  <Var name="MOUN_WHITEPAPER_PATH" value="docs/TheMoun-Whitepaper.md" usedIn="README.md#themoun" purpose="Whitepaper link"/>
-  <Var name="MOUN_MARKET_RESEARCH_PATH" value="docs/TheMoun-Market-Research.md" usedIn="README.md#themoun" purpose="Market research link"/>
-  <Var name="MOUN_SCHEMATICS_PATH" value="docs/TheMoun-Schematics.md" usedIn="README.md#themoun" purpose="Schematics link"/>
-  <Var name="RAW_INVESTOR_REPO" value="https://github.com/GatoGodMode/RawInvestor" usedIn="README.md#whats-building,README.md#rawinvestor" purpose="Public assurance RawInvestor repository"/>
-  <Var name="RAW_INVESTOR_MS_STORE_URL" value="https://apps.microsoft.com/detail/9PGX48NMDWQT" usedIn="README.md#whats-building,README.md#hero,README.md#rawinvestor" purpose="Microsoft Store listing for RawInvestor"/>
+  <Var name="RAWGRADED_REPO" value="https://github.com/GatoGodMode/RawGraded" usedIn="README.md#portfolio-at-a-glance,README.md#shipped-products-assurance" purpose="Assurance publication RawGraded repository"/>
+  <Var name="RAWGRADED_URL" value="https://rawgraded.com" usedIn="README.md#intro,README.md#shipped-products-assurance,README.md#contact" purpose="Shipped product site"/>
+  <Var name="THEMOUN_URL" value="https://themoun.com" usedIn="README.md#intro,README.md#shipped-products-assurance,README.md#contact,docs/TheMoun-*.md" purpose="Hardware R&D product site"/>
+  <Var name="MOUN_WHITEPAPER_PATH" value="docs/TheMoun-Whitepaper.md" usedIn="README.md#shipped-products-assurance" purpose="Whitepaper link"/>
+  <Var name="MOUN_MARKET_RESEARCH_PATH" value="docs/TheMoun-Market-Research.md" usedIn="README.md#shipped-products-assurance" purpose="Market research link"/>
+  <Var name="MOUN_SCHEMATICS_PATH" value="docs/TheMoun-Schematics.md" usedIn="README.md#shipped-products-assurance" purpose="Schematics link"/>
+  <Var name="RAW_INVESTOR_REPO" value="https://github.com/GatoGodMode/RawInvestor" usedIn="README.md#portfolio-at-a-glance,README.md#shipped-products-assurance" purpose="Assurance publication RawInvestor repository"/>
+  <Var name="RAW_INVESTOR_MS_STORE_URL" value="https://apps.microsoft.com/detail/9PGX48NMDWQT" usedIn="README.md#portfolio-at-a-glance,README.md#hero,README.md#shipped-products-assurance,README.md#contact" purpose="Microsoft Store listing for RawInvestor"/>
   <Var name="RAW_INVESTOR_MS_STORE_ID" value="9PGX48NMDWQT" usedIn="EnVars/VarMap.xml" purpose="Store product id"/>
-  <Var name="RAW_INVESTOR_QUICK_CARD_IMAGE" value="assets/rawinvestor/quick-card-dashboard.png" usedIn="README.md#rawinvestor" purpose="Quick Card dashboard screenshot in profile RawInvestor EXPAND"/>
-  <Var name="ROOFROOF_LIVE_URL" value="https://roofrooftexas.com" usedIn="README.md#whats-building,README.md#roofrooftexas" purpose="Live RoofRoofTexas production site"/>
-  <Var name="ROOFROOF_CASE_STUDY_REPO" value="https://github.com/GatoGodMode/RoofRoofTexas-Rebuild" usedIn="README.md#whats-building,README.md#roofrooftexas" purpose="Public RoofRoofTexas rebuild case study repository"/>
-  <Var name="COLLECTOR_BUYER_PSYCH_REPO" value="https://github.com/GatoGodMode/CollectorBuyerPsych" usedIn="README.md#whats-building" purpose="Neuro-economic collectibles research repo"/>
-  <Var name="ORPHAN_HUNTER_REPO" value="https://github.com/GatoGodMode/OrphanHunter" usedIn="README.md#whats-building" purpose="Web app crawl and audit tool"/>
-  <Var name="STRIKESCOPE_REPO" value="https://github.com/GatoGodMode/StrikeScope" usedIn="README.md#whats-building,README.md#strikescope" purpose="Self-hosted CRM IAM platform"/>
+  <Var name="RAW_INVESTOR_QUICK_CARD_IMAGE" value="assets/rawinvestor/quick-card-dashboard.png" usedIn="README.md#shipped-products-assurance" purpose="Quick Card dashboard screenshot in profile RawInvestor EXPAND"/>
+  <Var name="ROOFROOF_LIVE_URL" value="https://roofrooftexas.com" usedIn="README.md#portfolio-at-a-glance,README.md#roofrooftexas" purpose="Live RoofRoofTexas production site"/>
+  <Var name="ROOFROOF_CASE_STUDY_REPO" value="https://github.com/GatoGodMode/RoofRoofTexas-Rebuild" usedIn="README.md#portfolio-at-a-glance,README.md#roofrooftexas" purpose="Public RoofRoofTexas rebuild case study repository"/>
+  <Var name="COLLECTOR_BUYER_PSYCH_REPO" value="https://github.com/GatoGodMode/CollectorBuyerPsych" usedIn="README.md#portfolio-at-a-glance" purpose="Published research repo — non-hiring primary"/>
+  <Var name="ORPHAN_HUNTER_REPO" value="https://github.com/GatoGodMode/OrphanHunter" usedIn="README.md#portfolio-at-a-glance" purpose="Web app crawl and audit tool"/>
+  <Var name="STRIKESCOPE_REPO" value="https://github.com/GatoGodMode/StrikeScope" usedIn="README.md#portfolio-at-a-glance,README.md#strikescope" purpose="Self-hosted CRM IAM portfolio case study"/>
   <Var name="STRIKESCOPE_IAM_DOC" value="https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md" usedIn="README.md#strikescope" purpose="IAM documentation link"/>
-  <Var name="PDF_SIZE_REDUCER_REPO" value="https://github.com/GatoGodMode/PDF-Size-Reducer" usedIn="README.md#whats-building,README.md#pdf-size-reducer" purpose="Desktop PDF compression tool"/>
-  <Var name="LUXURY_CATALOG_REPO" value="https://github.com/GatoGodMode/LuxuryCatalog" usedIn="README.md#whats-building,README.md#luxurycatalog" purpose="Gemini door catalog maker with PDF disaster recovery"/>
+  <Var name="PDF_SIZE_REDUCER_REPO" value="https://github.com/GatoGodMode/PDF-Size-Reducer" usedIn="README.md#portfolio-at-a-glance,README.md#pdf-size-reducer" purpose="Desktop PDF compression portfolio tool"/>
+  <Var name="LUXURY_CATALOG_REPO" value="https://github.com/GatoGodMode/LuxuryCatalog" usedIn="README.md#portfolio-at-a-glance,README.md#luxurycatalog" purpose="Gemini catalog maker portfolio tool"/>
   <Var name="PATH_ROOT_MASK" value="ROOT:\" usedIn="EnVars/SysMap.xml,linked-repo EnVars" purpose="Published path alias for local project roots (e.g. ROOT:\CollectorBuyerPsych)"/>
   <Var name="PATH_USER_MASK" value="USER:\" usedIn="EnVars/SysMap.xml" purpose="Published path alias for Windows user profile paths"/>
-  <Var name="COMPLIANCE_DISCLAIMER" value="README.md#legal--third-party-notice" usedIn="README.md" purpose="No endorsement/partnership/employment claims for third-party marks or past clients"/>
-  <Var name="DNS_SENTINEL_REPO" value="https://github.com/GatoGodMode/DNS-Sentinel" usedIn="README.md#whats-building,README.md#dns-sentinel" purpose="Domain and email DNS migration auditing tool"/>
+  <Var name="COMPLIANCE_DISCLAIMER" value="README.md#legal--third-party-notice" usedIn="README.md" purpose="No endorsement/partnership/employment claims; portfolio not soliciting contributions"/>
+  <Var name="DNS_SENTINEL_REPO" value="https://github.com/GatoGodMode/DNS-Sentinel" usedIn="README.md#portfolio-at-a-glance,README.md#dns-sentinel" purpose="Domain and email DNS migration auditing portfolio tool"/>
 </VarMap>
