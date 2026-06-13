@@ -422,14 +422,14 @@ Everything I build inverts that:
 
 | Distribution | Product UI | Signals |
 |:---:|:---:|:---:|
-| <img src="assets/rawinvestor/microsoft-store-listing.png" alt="RawInvestor on Microsoft Store — market signals dashboard" width="280"> | Market Bias / Trend / Sales Strategy dashboard — eBay, TCGplayer, and PriceCharting blended per card | Multi-source blend · grading EV · 90-day ROI forecast |
+| <img src="assets/rawinvestor/microsoft-store-listing.png" alt="RawInvestor on Microsoft Store — market signals dashboard" width="280"> | <img src="assets/rawinvestor/quick-card-dashboard.png" alt="Quick Card dashboard — Market Bias, Trend, Grade Edge" width="280"> | Multi-source blend · grading EV · 90-day ROI forecast |
 | First RAW ENGINE Microsoft Store listing · **Uses AI features** badge | Nebula 3D portfolio classification · deal-hunting Arsenal targets | Loopback-only API · no cloud sync · no account |
 
 **Highlights:** Nebula 3D portfolio classification (Buy / Sell / Hold / Sleeper / Climber / Dud / NGMI), deal-hunting "Arsenal" targets, sealed product EV, themed share graphics, streamer mode.
 
 **Public source:** [GatoGodMode/RawInvestor](https://github.com/GatoGodMode/RawInvestor) — security-assured reference publication (Electron, loopback Express API, MV3 extension). Release integrity gate: `node scripts/publish-preflight.cjs`.
 
-**Go deeper:** [Security posture](https://github.com/GatoGodMode/RawInvestor#security-posture-at-a-glance) · [How it works](https://github.com/GatoGodMode/RawInvestor#how-the-software-works) · [Microsoft Store listing](https://apps.microsoft.com/detail/9PGX48NMDWQT)
+**Go deeper:** [Security architecture](https://github.com/GatoGodMode/RawInvestor#security-architecture-visual-layouts) · [Security posture](https://github.com/GatoGodMode/RawInvestor#security-posture-at-a-glance) · [How it works](https://github.com/GatoGodMode/RawInvestor#how-the-software-works) · [Microsoft Store listing](https://apps.microsoft.com/detail/9PGX48NMDWQT)
 
 </details>
 
