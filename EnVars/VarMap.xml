@@ -13,4 +13,6 @@
   <Var name="RAW_INVESTOR_MS_STORE_ID" value="9PGX48NMDWQT" usedIn="EnVars/VarMap.xml" purpose="Store product id"/>
   <Var name="COLLECTOR_BUYER_PSYCH_REPO" value="https://github.com/GatoGodMode/CollectorBuyerPsych" usedIn="README.md#whats-building" purpose="Neuro-economic collectibles research repo"/>
   <Var name="ORPHAN_HUNTER_REPO" value="https://github.com/GatoGodMode/OrphanHunter" usedIn="README.md#whats-building" purpose="Web app crawl and audit tool"/>
+  <Var name="STRIKESCOPE_REPO" value="https://github.com/GatoGodMode/StrikeScope" usedIn="README.md#whats-building,README.md#strikescope" purpose="Self-hosted CRM IAM platform"/>
+  <Var name="STRIKESCOPE_IAM_DOC" value="https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md" usedIn="README.md#strikescope" purpose="IAM documentation link"/>
 </VarMap>

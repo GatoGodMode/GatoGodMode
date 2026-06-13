@@ -7,7 +7,7 @@
       <Section id="whats-building" purpose="Ecosystem highlight: mermaid pipeline diagram + project/status table incl CollectorBuyerPsych research and OrphanHunter"/>
       <Section id="tech-stack" purpose="Compact visible badge row + Salesforce certification badges; full toolbox badge wall in collapsible details"/>
       <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies + link to RoofRoofTexas-Rebuild public case-study repo. Summaries styled as for-the-badge EXPAND button bars"/>
-      <Section id="deep-dives" purpose="Collapsible per-project: Philosophy table, RawEngine, RawGraded, RawInvestor, RawMarkets, TheMoun (with docs links incl schematics). Summaries styled as color-coded for-the-badge EXPAND button bars"/>
+      <Section id="deep-dives" purpose="Collapsible per-project incl StrikeScope IAM section"/>
       <Section id="contact" purpose="Footer links"/>
     </File>
     <Folder path="assets" role="Repo images">

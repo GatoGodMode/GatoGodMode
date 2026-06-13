@@ -41,6 +41,7 @@ flowchart LR
 | **[TheMoun](https://themoun.com)** | Integrated physical capture workstation — EPIC line (Eco → Pro → Investor → Curator) | Hardware program |
 | **[CollectorBuyerPsych](https://github.com/GatoGodMode/CollectorBuyerPsych)** | Cited neuro-economic research — TCG, crypto, NFT, and gacha market psychology | Published research |
 | **[OrphanHunter](https://github.com/GatoGodMode/OrphanHunter)** | Crawl web apps — map variables, SQL tables, and references; find orphans and migration issues | Open source · v1.3 |
+| **[StrikeScope](https://github.com/GatoGodMode/StrikeScope)** | Self-hosted CRM + IAM — entity/field RBAC, MFA, audit, AI Dev Studio, automation orchestration | Open source · WIP sentinel |
 
 Full architecture breakdowns are in the collapsible sections below.
 
@@ -181,13 +182,30 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 
 <br>
 
-> Client systems — described conceptually, never exposed.
+> Client systems — described conceptually unless linked below.
 
-**Multi-tenant solar/construction operations platform** — full lead-to-install pipeline: visual commission/payout formula builder, financing-provider registry tied to project records, permitting and jurisdiction tracking by county department, geofenced field PWAs with photo submission and time tracking, webhook-driven automation engine with delivery logs, public lead-capture forms, customer portal, and live WebSocket monitoring. TypeScript monorepo: ~313 source files, 44 API route modules, 18 admin feature modules.
+**[StrikeScope](https://github.com/GatoGodMode/StrikeScope)** — public repo: self-hosted multi-tenant CRM with **entity + field-level RBAC**, TOTP MFA, audit trail, Activepieces orchestration, and Dev Studio AI that observes schema/code structure. Full lead-to-install pipeline (commissions, financing, territory, field PWAs, customer portal). [IAM model](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md) · [Sentinel roadmap (WIP)](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ROADMAP-SENTINEL.md)
 
 **Field-operations CRM for multi-region installation crews** — four role-scoped experiences (admin console, CRM desk, foreman mobile, restricted crew shell), two-way Google Calendar sync and Drive mirroring, QR crew check-in with geofenced sites, guided photo/video proof-of-work with GPS/timestamp forensics, permit document OCR, SLA dashboards and shift analytics, bilingual EN/ES field UX. React + Express + MySQL with dated idempotent migrations.
 
 **Public case study:** [RoofRoofTexas.com full rebuild](https://github.com/GatoGodMode/RoofRoofTexas-Rebuild) — before/after, security hardening, and local SEO for a Houston roofing company.
+
+</details>
+
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-StrikeScope%20%C2%B7%20IAM%20%26%20platform%20engineering-6f42c1?style=for-the-badge" alt="Expand: StrikeScope"></picture></summary>
+
+<br>
+
+> Self-hosted CRM built to demonstrate enterprise IAM and a credible path toward local AI security operations.
+
+**Shipped IAM:** JWT + bcrypt + optional TOTP MFA · entity CRUD permissions per role · **field-level PII** (`ssn_last_four`, `date_of_birth`, co-signer fields) · multi-company membership · audit trail · scoped automation service keys · Helmet + rate limits.
+
+**Platform:** Express + SQLite monorepo · Admin CRM + Server Admin · Field/Installer/Monitor PWAs · Activepieces event orchestration · Dev Studio local AI (RAG over schema, migrations, ship/rollback).
+
+**WIP:** [Sentinel roadmap](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ROADMAP-SENTINEL.md) — local AI SIEM/SOAR with company-maintained playbooks (documented, not fake-shipped).
+
+**Go deeper:** [Repository](https://github.com/GatoGodMode/StrikeScope) · [SECURITY-IAM.md](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md) · [Architecture](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ARCHITECTURE.md)
 
 </details>
 
