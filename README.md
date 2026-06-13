@@ -66,7 +66,7 @@ flowchart LR
 | Project | One-liner | Status |
 |---|---|---|
 | **RawEngine Local AI** | On-device vision AI catalogs defects; deterministic math assigns grades — no cloud required | Shipping |
-| **[RawGraded Studio](https://rawgraded.com)** | Know if a card is worth grading *before* you pay grading fees | Shipping |
+| **[RawGraded Studio](https://rawgraded.com)** · [source](https://github.com/GatoGodMode/RawGraded) | Know if a card is worth grading *before* you pay grading fees — redacted full monorepo (Electron, mobile, PHP vault) | [Shipping · open source](https://github.com/GatoGodMode/RawGraded) |
 | **RawInvestor** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts | [Shipping · Microsoft Store](https://apps.microsoft.com/detail/9PGX48NMDWQT) |
 | **RawMarkets** | Local-first markets terminal for metals, energy, equities with an AI copilot | In progress |
 | **[TheMoun](https://themoun.com)** | Integrated physical capture workstation — EPIC line (Eco → Pro → Investor → Curator) | Hardware program |
@@ -339,6 +339,8 @@ Everything I build inverts that:
 **capture → crop → PSA-style centering measurement → optional 5-stage guided video forensics (tilted light, macro, back scan) → RawEngine evidence passes → deterministic grade math → certificate export → local portfolio**
 
 **Architecture:** Windows desktop app (web-tech UI in a native shell) with a companion mobile capture app, a local database for portfolio/provenance, and pluggable AI providers (local-first, optional BYOK cloud). An optional hosted vault and public archive exist at rawgraded.com — but desktop grading requires no account at all.
+
+**Public source:** [GatoGodMode/RawGraded](https://github.com/GatoGodMode/RawGraded) — redacted full monorepo (Electron desktop, Capacitor mobile, PHP vault API, landing). No databases, credentials, or operator keys shipped; `config.example.php` + `npm run preflight` guard every publish.
 
 **Highlights:** live sharpness and border-detection guidance, slab authenticity checking, fake-slab identification guide, printable certificates and social exports, per-card market refresh.
 

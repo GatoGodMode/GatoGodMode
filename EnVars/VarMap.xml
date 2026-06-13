@@ -5,6 +5,7 @@
   <Var name="GITHUB_USERNAME" value="GatoGodMode" usedIn="README.md" purpose="Repo name and profile identity"/>
   <Var name="LINKEDIN_URL" value="https://www.linkedin.com/in/josephedwardscto/" usedIn="README.md#intro,README.md#contact" purpose="Profile link"/>
   <Var name="X_URL" value="https://x.com/GatoGodMode" usedIn="README.md#intro,README.md#contact" purpose="Profile link"/>
+  <Var name="RAWGRADED_REPO" value="https://github.com/GatoGodMode/RawGraded" usedIn="README.md#whats-building,README.md#rawgraded" purpose="Redacted public RawGraded monorepo"/>
   <Var name="RAWGRADED_URL" value="https://rawgraded.com" usedIn="README.md#intro,README.md#rawgraded,README.md#contact" purpose="Product site"/>
   <Var name="THEMOUN_URL" value="https://themoun.com" usedIn="README.md#intro,README.md#themoun,README.md#contact,docs/TheMoun-*.md" purpose="Product site"/>
   <Var name="MOUN_WHITEPAPER_PATH" value="docs/TheMoun-Whitepaper.md" usedIn="README.md#themoun" purpose="Whitepaper link"/>
