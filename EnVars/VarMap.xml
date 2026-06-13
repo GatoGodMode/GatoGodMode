@@ -11,4 +11,5 @@
   <Var name="MOUN_SCHEMATICS_PATH" value="docs/TheMoun-Schematics.md" usedIn="README.md#themoun" purpose="Schematics link"/>
   <Var name="RAW_INVESTOR_MS_STORE_URL" value="https://apps.microsoft.com/detail/9PGX48NMDWQT" usedIn="README.md#whats-building,README.md#hero" purpose="Microsoft Store listing for RawInvestor"/>
   <Var name="RAW_INVESTOR_MS_STORE_ID" value="9PGX48NMDWQT" usedIn="EnVars/VarMap.xml" purpose="Store product id"/>
+  <Var name="COLLECTOR_BUYER_PSYCH_REPO" value="https://github.com/GatoGodMode/CollectorBuyerPsych" usedIn="README.md#whats-building" purpose="Neuro-economic collectibles research repo"/>
 </VarMap>

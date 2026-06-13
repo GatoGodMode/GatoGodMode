@@ -39,6 +39,7 @@ flowchart LR
 | **RawInvestor** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts | [Shipping · Microsoft Store](https://apps.microsoft.com/detail/9PGX48NMDWQT) |
 | **RawMarkets** | Local-first markets terminal for metals, energy, equities with an AI copilot | In progress |
 | **[TheMoun](https://themoun.com)** | Integrated physical capture workstation — EPIC line (Eco → Pro → Investor → Curator) | Hardware program |
+| **[CollectorBuyerPsych](https://github.com/GatoGodMode/CollectorBuyerPsych)** | Cited neuro-economic research — TCG, crypto, NFT, and gacha market psychology | Published research |
 
 Full architecture breakdowns are in the collapsible sections below.
 
