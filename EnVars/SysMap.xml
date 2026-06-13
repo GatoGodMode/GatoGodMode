@@ -9,12 +9,13 @@
       <Section id="whats-building" purpose="Ecosystem highlight: table incl RawGraded source repo, LuxuryCatalog and DNS-Sentinel custom tooling"/>
       <Section id="tech-stack" purpose="Compact visible badge row + Salesforce certification badges; full toolbox badge wall in collapsible details"/>
       <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies + link to RoofRoofTexas-Rebuild public case-study repo. Summaries styled as for-the-badge EXPAND button bars"/>
-      <Section id="deep-dives" purpose="Collapsible per-project incl RawGraded source, StrikeScope, PDF Size Reducer, LuxuryCatalog, DNS-Sentinel"/>
+      <Section id="deep-dives" purpose="Collapsible per-project incl RawGraded source with visual showcase hero, StrikeScope, PDF Size Reducer, LuxuryCatalog, DNS-Sentinel"/>
       <Section id="contact" purpose="Footer links"/>
       <Section id="legal-third-party-notice" purpose="No endorsement/partnership/employment disclaimer for third-party marks and past client work"/>
     </File>
     <Folder path="assets" role="Repo images">
       <File path="assets/raw-engine-banner.png" role="Hero banner image"/>
+      <Folder path="assets/rawgraded" role="RawGraded showcase screenshots for README expand section"/>
     </Folder>
     <Folder path="docs" role="Published TheMoun diligence package">
       <File path="docs/TheMoun-Whitepaper.md" role="Product whitepaper: thesis, EPIC rollout, engineering architecture, IP themes"/>

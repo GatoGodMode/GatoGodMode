@@ -66,7 +66,7 @@ flowchart LR
 | Project | One-liner | Status |
 |---|---|---|
 | **RawEngine Local AI** | On-device vision AI catalogs defects; deterministic math assigns grades — no cloud required | Shipping |
-| **[RawGraded Studio](https://rawgraded.com)** · [source](https://github.com/GatoGodMode/RawGraded) | Know if a card is worth grading *before* you pay grading fees — redacted full monorepo (Electron, mobile, PHP vault) | [Shipping · open source](https://github.com/GatoGodMode/RawGraded) |
+| **[RawGraded Studio](https://rawgraded.com)** · [source](https://github.com/GatoGodMode/RawGraded) | Know if a card is worth grading *before* you pay grading fees — public assurance repo (Electron, PHP vault API, threat model) | [Shipping · open source](https://github.com/GatoGodMode/RawGraded) |
 | **RawInvestor** | TCG investing workstation — Market Bias, Trend, grading EV, 1–90 day ROI forecasts | [Shipping · Microsoft Store listing](https://apps.microsoft.com/detail/9PGX48NMDWQT) *(published app; not a Microsoft partnership)* |
 | **RawMarkets** | Local-first markets terminal for metals, energy, equities with an AI copilot | In progress |
 | **[TheMoun](https://themoun.com)** | Integrated physical capture workstation — EPIC line (Eco → Pro → Investor → Curator) | Hardware program |
@@ -340,9 +340,21 @@ Everything I build inverts that:
 
 **Architecture:** Windows desktop app (web-tech UI in a native shell) with a companion mobile capture app, a local database for portfolio/provenance, and pluggable AI providers (local-first, optional BYOK cloud). An optional hosted vault and public archive exist at rawgraded.com — but desktop grading requires no account at all.
 
-**Public source:** [GatoGodMode/RawGraded](https://github.com/GatoGodMode/RawGraded) — redacted full monorepo (Electron desktop, Capacitor mobile, PHP vault API, landing). No hardcoded API keys or DB dumps; operator secrets live in the settings table at deploy time. **`npm run preflight`** blocks credentials before every publish. Rotate PSA/PokéWallet/PokemonPriceTracker keys if the repo was public before the June 2026 security sweep.
+**Public source:** [GatoGodMode/RawGraded](https://github.com/GatoGodMode/RawGraded) — security-assured reference publication (Electron desktop, PHP vault API, landing). Secrets load from runtime settings at deploy time; operator config and schema migration stay out of band. Release integrity gate: `node scripts/publish-preflight.cjs`.
 
 **Highlights:** live sharpness and border-detection guidance, slab authenticity checking, fake-slab identification guide, printable certificates and social exports, per-card market refresh.
+
+**Built for production**
+
+| Scale | Security | Polish |
+|:---:|:---:|:---:|
+| <img src="assets/rawgraded/ledger-pdf-progress.png" alt="PDF export over 296 assets" width="280"> | <img src="assets/rawgraded/vault-privacy-mode.png" alt="Vault privacy mode" width="280"> | <img src="assets/rawgraded/3d-card-rotate.gif" alt="Three.js holo card viewer" width="280"> |
+| Chunked insurance ledger PDF with progress over **250+ assets** | Server-side SPII strip on public cert verify; **GO PRIVATE** archive control | Three.js card viewer with holo pattern inference |
+
+- Portfolio-grade PDF export with sectioned rendering and live progress UI
+- Full vault provenance capture, envelope OCR, and insurance ledger — [vault records & SPII controls →](https://github.com/GatoGodMode/RawGraded#vault-records-provenance-capture-and-indemnity-documentation)
+- Deterministic grade math with auditable `mathTrace` — not black-box LLM output
+- [Platform showcase (screenshots) →](https://github.com/GatoGodMode/RawGraded#platform-showcase)
 
 </details>
 
