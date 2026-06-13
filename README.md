@@ -42,6 +42,7 @@ flowchart LR
 | **[CollectorBuyerPsych](https://github.com/GatoGodMode/CollectorBuyerPsych)** | Cited neuro-economic research — TCG, crypto, NFT, and gacha market psychology | Published research |
 | **[OrphanHunter](https://github.com/GatoGodMode/OrphanHunter)** | Crawl web apps — map variables, SQL tables, and references; find orphans and migration issues | Open source · v1.3 |
 | **[StrikeScope](https://github.com/GatoGodMode/StrikeScope)** | Self-hosted CRM + IAM — entity/field RBAC, MFA, audit, AI Dev Studio, automation orchestration | Open source · WIP sentinel |
+| **[PDF Size Reducer](https://github.com/GatoGodMode/PDF-Size-Reducer)** | Desktop PDF shrinker — 50 MB → ~2 MB; Ultra preset, size preview, portable exe for non-technical users | Open source · custom tooling |
 
 Full architecture breakdowns are in the collapsible sections below.
 
@@ -206,6 +207,21 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 **WIP:** [Sentinel roadmap](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ROADMAP-SENTINEL.md) — local AI SIEM/SOAR with company-maintained playbooks (documented, not fake-shipped).
 
 **Go deeper:** [Repository](https://github.com/GatoGodMode/StrikeScope) · [SECURITY-IAM.md](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/SECURITY-IAM.md) · [Architecture](https://github.com/GatoGodMode/StrikeScope/blob/main/docs/ARCHITECTURE.md)
+
+</details>
+
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-PDF%20Size%20Reducer%20%C2%B7%20custom%20tooling-2ea44f?style=for-the-badge" alt="Expand: PDF Size Reducer"></picture></summary>
+
+<br>
+
+> Custom tooling for people who need extreme PDF compression without touching a terminal.
+
+**Problem:** 50 MB scan PDFs blocked email and portal uploads. Existing shrinkers were CLI-only, conservative, or buried in IT tooling.
+
+**Shipped:** Tkinter desktop app with **Ultra (max shrink)** Ghostscript profile, full preset ladder, Ghostscript + PyMuPDF raster modes, **Check Sizes** preview (runs every preset before commit), and **only keep if smaller** safety. Portable **73 MB exe** bundles Ghostscript — double-click for office staff.
+
+**Go deeper:** [Repository](https://github.com/GatoGodMode/PDF-Size-Reducer) · [Portable exe](https://github.com/GatoGodMode/PDF-Size-Reducer/blob/main/dist/PDF_Size_Reducer.exe)
 
 </details>
 
