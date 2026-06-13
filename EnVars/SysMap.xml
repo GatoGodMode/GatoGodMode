@@ -2,7 +2,7 @@
 <SysMap project="GatoGodMode-Profile" updated="2026-06-10">
   <Structure>
     <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
-      <Section id="banner" purpose="RAW ENGINE robot banner image (assets/raw-engine-banner.png)"/>
+      <Section id="banner" purpose="Removed from README 2026-06-10; assets/raw-engine-banner.png retained in repo"/>
       <Section id="portfolio-notice" purpose="GitHub NOTE alert: professional portfolio — not OSS program; proprietary career vs reviewable case studies and assurance excerpts"/>
       <Section id="hero" purpose="Open to Work + Portfolio badges; specialty tagline (Cyber Security · IAM · CRM); explicit target roles list; specialty shield row; IAM/CRM/security proof bullets; hiring-lane routing table; social badges; security discipline blockquote; LinkedIn CTA"/>
       <Section id="about-portfolio" purpose="Curated public evidence rationale: private proprietary career vs shareable IAM/CRM/security case studies"/>
@@ -14,7 +14,7 @@
       <Section id="contact" purpose="Target roles lead; LinkedIn primary CTA; shipped products secondary"/>
     </File>
     <Folder path="assets" role="Repo images">
-      <File path="assets/raw-engine-banner.png" role="Hero banner image"/>
+      <File path="assets/raw-engine-banner.png" role="Banner image retained offline; not rendered in README"/>
       <Folder path="assets/rawgraded" role="RawGraded showcase screenshots for README expand section"/>
       <Folder path="assets/rawinvestor" role="RawInvestor Microsoft Store and Quick Card showcase screenshots for README expand section"/>
       <Folder path="assets/roofrooftexas" role="RoofRoofTexas before/after case study images"/>
