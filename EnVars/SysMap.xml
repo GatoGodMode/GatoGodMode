@@ -4,7 +4,7 @@
     <File path="README.md" role="GitHub profile page rendered at github.com/GatoGodMode">
       <Section id="banner" purpose="RAW ENGINE robot banner image (assets/raw-engine-banner.png)"/>
       <Section id="hero" purpose="Short identity hit: name, one-liner, three bullets (what I build / ecosystem / why scroll incl Microsoft Store), profile link badges incl RawInvestor Store badge, signal-not-noise blockquote"/>
-      <Section id="whats-building" purpose="Ecosystem highlight: mermaid pipeline diagram + project/status table incl PDF-Size-Reducer and LuxuryCatalog"/>
+      <Section id="whats-building" purpose="Ecosystem highlight: table incl LuxuryCatalog and DNS-Sentinel custom tooling"/>
       <Section id="tech-stack" purpose="Compact visible badge row + Salesforce certification badges; full toolbox badge wall in collapsible details"/>
       <Section id="enterprise-crm" purpose="Collapsible: CRM/Zoho/banks-permitting skills pillars; collapsible: two private build case studies + link to RoofRoofTexas-Rebuild public case-study repo. Summaries styled as for-the-badge EXPAND button bars"/>
       <Section id="deep-dives" purpose="Collapsible per-project incl StrikeScope, PDF Size Reducer, LuxuryCatalog"/>

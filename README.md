@@ -44,6 +44,7 @@ flowchart LR
 | **[StrikeScope](https://github.com/GatoGodMode/StrikeScope)** | Self-hosted CRM + IAM — entity/field RBAC, MFA, audit, AI Dev Studio, automation orchestration | Open source · WIP sentinel |
 | **[PDF Size Reducer](https://github.com/GatoGodMode/PDF-Size-Reducer)** | Desktop PDF shrinker — 50 MB → ~2 MB; Ultra preset, size preview, portable exe for non-technical users | Open source · custom tooling |
 | **[LuxuryCatalog](https://github.com/GatoGodMode/LuxuryCatalog)** | B&W line art → photorealistic door catalog via Gemini Nano Banana; PDF export + disaster-recovery reverse engineering | Open source · custom tooling |
+| **[DNS-Sentinel](https://github.com/GatoGodMode/DNS-Sentinel)** | Domain/email DNS auditing for M365 → Google Workspace migrations; MX/SPF/DMARC, WP/Vite exposure, AI assistant | Open source · custom tooling |
 
 Full architecture breakdowns are in the collapsible sections below.
 
@@ -238,6 +239,21 @@ Local-first by default. Plugin-style architectures. Deterministic math where it 
 **Shipped:** React + Vite app with **Gemini Nano Banana** (`gemini-2.5-flash-image` / `gemini-3.1-flash-image-preview`) queue processing, teal glass unification, jsPDF catalog export (covers, spreads, index), **PDF operator-list reverse engineering** to rebuild the IndexedDB queue from output PDF alone, WooCommerce ZIP export, and WP Media Mapper Chrome extension.
 
 **Go deeper:** [Repository](https://github.com/GatoGodMode/LuxuryCatalog) · [Showcase renders](https://github.com/GatoGodMode/LuxuryCatalog/tree/main/assets/showcase)
+
+</details>
+
+<details>
+<summary><picture><img src="https://img.shields.io/badge/%E2%96%BC%20EXPAND-DNS--Sentinel%20%C2%B7%20migration%20DNS%20auditing-0ea5e9?style=for-the-badge" alt="Expand: DNS-Sentinel"></picture></summary>
+
+<br>
+
+> Built during a ~1 TB GoDaddy M365 → Google Workspace cutover when registrar and vendor support couldn't agree on DNS state.
+
+**Problem:** Mid-migration email failures with blame shifting across GoDaddy, Microsoft, and Namecheap — no single view of MX, SPF, DMARC, SMTP reachability, or site stack exposure.
+
+**Shipped:** Full-stack audit tool — domain score (SSL, headers, path exposure), email provider heuristics (Google/M365/GoDaddy legacy), SMTP + MX banner tests, WordPress vs **Vite dist** detection with optional deep scan, SQLite audit history, and **server-proxied Gemini** fix guides and migration chat.
+
+**Go deeper:** [Repository](https://github.com/GatoGodMode/DNS-Sentinel)
 
 </details>
 
